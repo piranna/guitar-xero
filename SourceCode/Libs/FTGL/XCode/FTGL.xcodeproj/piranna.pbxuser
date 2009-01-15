@@ -1,0 +1,314 @@
+// !$*UTF8*$!
+{
+	8015C3A30DF715AA00F92C0B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8015C3A40DF715AA00F92C0B /* FTBitmapGlyph.cpp */;
+		name = "FTBitmapGlyph.cpp: 3";
+		rLen = 27;
+		rLoc = 22;
+		rType = 0;
+		vrLen = 568;
+		vrLoc = 0;
+	};
+	8015C3A40DF715AA00F92C0B /* FTBitmapGlyph.cpp */ = {
+		isa = PBXFileReference;
+		name = FTBitmapGlyph.cpp;
+		path = "/Users/piranna/Proyectos/Guitar Xero/Libs/FTGL/XCode/../src/FTBitmapGlyph.cpp";
+		sourceTree = "<absolute>";
+	};
+	80C812160DF713620033B56B /* Unit Tests */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = "Unit Tests";
+		sourceDirectories = (
+		);
+	};
+	80C812170DF713620033B56B /* FTGL Demo */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = "FTGL Demo";
+		sourceDirectories = (
+		);
+	};
+	80C812180DF713620033B56B /* FTGL Test */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = "FTGL Test";
+		sourceDirectories = (
+		);
+	};
+	80C8123B0DF713650033B56B /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+	};
+	80C8123C0DF713650033B56B /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	80C812440DF713DF0033B56B /* FTBitmapGlyph.cpp */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.cpp.cpp;
+		name = FTBitmapGlyph.cpp;
+		path = "/Users/piranna/Proyectos/Guitar Xero/Libs/FTGL/XCode/../src/FTBitmapGlyph.cpp";
+		sourceTree = "<absolute>";
+	};
+	80C8124D0DF714480033B56B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 80C812440DF713DF0033B56B /* FTBitmapGlyph.cpp */;
+		name = "FTBitmapGlyph.cpp: 3";
+		rLen = 27;
+		rLoc = 22;
+		rType = 0;
+		vrLen = 290;
+		vrLoc = 0;
+	};
+	80C8124E0DF714480033B56B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BA63B0E606D1C70900CD5F16 /* FTBitmapGlyph.h */;
+		name = "FTBitmapGlyph.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 390;
+		vrLoc = 0;
+	};
+	80C812530DF714720033B56B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BA63B0E606D1C70900CD5F16 /* FTBitmapGlyph.h */;
+		name = "FTBitmapGlyph.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 390;
+		vrLoc = 0;
+	};
+	80C812550DF714720033B56B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 80C812560DF714720033B56B /* FTBitmapGlyph.cpp */;
+		name = "FTBitmapGlyph.cpp: 3";
+		rLen = 27;
+		rLoc = 22;
+		rType = 0;
+		vrLen = 607;
+		vrLoc = 0;
+	};
+	80C812560DF714720033B56B /* FTBitmapGlyph.cpp */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.cpp.cpp;
+		name = FTBitmapGlyph.cpp;
+		path = "/Users/piranna/Proyectos/Guitar Xero/Libs/FTGL/XCode/../src/FTBitmapGlyph.cpp";
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 924}}";
+			sepNavSelRange = "{22, 27}";
+			sepNavVisRange = "{0, 781}";
+		};
+	};
+	BA4DCB1E06D8494E0090441D /* FTGL Demo */ = {
+		activeExec = 0;
+		executables = (
+			80C812170DF713620033B56B /* FTGL Demo */,
+		);
+	};
+	BA4DCBAC06D84BA70090441D /* FTGL Test */ = {
+		activeExec = 0;
+		executables = (
+			80C812180DF713620033B56B /* FTGL Test */,
+		);
+	};
+	BA63B0C006D1C62B00CD5F16 /* Project object */ = {
+		activeArchitecture = i386;
+		activeBuildConfigurationName = Development;
+		activeExecutable = 80C812160DF713620033B56B /* Unit Tests */;
+		activeTarget = BA63B0DD06D1C6D900CD5F16 /* ftgl */;
+		codeSenseManager = 80C8123C0DF713650033B56B /* Code sense */;
+		executables = (
+			80C812160DF713620033B56B /* Unit Tests */,
+			80C812170DF713620033B56B /* FTGL Demo */,
+			80C812180DF713620033B56B /* FTGL Test */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXBookmarksDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXBookmarksDataSource_NameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					200,
+					200,
+					643,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXBookmarksDataSource_LocationID,
+					PBXBookmarksDataSource_NameID,
+					PBXBookmarksDataSource_CommentsID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXErrorsWarningsDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXErrorsWarningsDataSource_LocationID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					420,
+					603,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXErrorsWarningsDataSource_TypeID,
+					PBXErrorsWarningsDataSource_MessageID,
+					PBXErrorsWarningsDataSource_LocationID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					833,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFindDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFindDataSource_LocationID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					200,
+					847,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFindDataSource_MessageID,
+					PBXFindDataSource_LocationID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXSymbolsDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXSymbolsDataSource_SymbolNameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					16,
+					200,
+					50,
+					773,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXSymbolsDataSource_SymbolTypeIconID,
+					PBXSymbolsDataSource_SymbolNameID,
+					PBXSymbolsDataSource_SymbolTypeID,
+					PBXSymbolsDataSource_ReferenceNameID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.XCSCMDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					20,
+					809,
+					20,
+					48.16259765625,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_SCM_ColumnID,
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 234296510;
+			PBXWorkspaceStateSaveDate = 234296510;
+		};
+		perUserProjectItems = {
+			8015C3A30DF715AA00F92C0B /* PBXTextBookmark */ = 8015C3A30DF715AA00F92C0B /* PBXTextBookmark */;
+			80C8124D0DF714480033B56B /* PBXTextBookmark */ = 80C8124D0DF714480033B56B /* PBXTextBookmark */;
+			80C8124E0DF714480033B56B /* PBXTextBookmark */ = 80C8124E0DF714480033B56B /* PBXTextBookmark */;
+			80C812530DF714720033B56B /* PBXTextBookmark */ = 80C812530DF714720033B56B /* PBXTextBookmark */;
+			80C812550DF714720033B56B /* PBXTextBookmark */ = 80C812550DF714720033B56B /* PBXTextBookmark */;
+		};
+		sourceControlManager = 80C8123B0DF713650033B56B /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	BA63B0DD06D1C6D900CD5F16 /* ftgl */ = {
+		activeExec = 0;
+	};
+	BA63B0E606D1C70900CD5F16 /* FTBitmapGlyph.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 658}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 390}";
+		};
+	};
+	BA63B16D06D1C8FD00CD5F16 /* Unit Tests */ = {
+		activeExec = 0;
+		executables = (
+			80C812160DF713620033B56B /* Unit Tests */,
+		);
+	};
+}
