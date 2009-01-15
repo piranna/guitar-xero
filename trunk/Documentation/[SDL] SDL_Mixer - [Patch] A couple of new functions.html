@@ -1,0 +1,160 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [SDL] SDL_Mixer - [Patch]  A couple of new functions
+   </TITLE>
+   <LINK REL="Index" HREF="index.html" >
+   <LINK REL="made" HREF="mailto:sdl%40libsdl.org?Subject=%5BSDL%5D%20SDL_Mixer%20-%20%5BPatch%5D%20%20A%20couple%20of%20new%20functions&In-Reply-To=">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="062305.html">
+   <LINK REL="Next"  HREF="062307.html">
+ </HEAD>
+ <BODY vlink="#551a8b" alink="#ff0000" bgcolor="#ffffff" link="#0000ee" text="#000000">
+   <H1>[SDL] SDL_Mixer - [Patch]  A couple of new functions</H1>
+    <B>Emmanuel NM</B> 
+    <A HREF="mailto:sdl%40libsdl.org?Subject=%5BSDL%5D%20SDL_Mixer%20-%20%5BPatch%5D%20%20A%20couple%20of%20new%20functions&In-Reply-To="
+       TITLE="[SDL] SDL_Mixer - [Patch]  A couple of new functions">emmanuelnm at softhome.net
+       </A><BR>
+    <I>Sun May 23 11:39:33 PDT 2004</I>
+    <P><UL>
+        <LI>Previous message: <A HREF="062305.html">[SDL] force SDL to create a segfault
+</A></li>
+        <LI>Next message: <A HREF="062307.html">[SDL] SDL_Flip and fps
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html#62306">[ date ]</a>
+              <a href="thread.html#62306">[ thread ]</a>
+              <a href="subject.html#62306">[ subject ]</a>
+              <a href="author.html#62306">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>Hi  everyone, 
+
+I implemented 3 functions for the SDL_mixer library,  in the file music.c
+
+    Mix_GetMusicPosition()  - Returns the current position in seconds.
+    Mix_FFMusic(seconds) -  Fast Forward in seconds from the current 
+position. Only for MP3 and OGG
+    Mix_RewMusic(seconds) - Rewind in seconds from the current position. 
+Only for MP3 and OGG.
+
+apply the patch with :    &quot;patch music.c patch.diff&quot;.
+
+Sorry about my English.
+Let me know what you think
+
+
+Best Regards
+
+--------------------------
+Emmanuel  N. Millan
+--------------------------
+
+
+-------------- next part --------------
+27a28
+&gt;<i> #include &lt;time.h&gt;
+</I>79a81,82
+&gt;<i> time_t start, end, duration;
+</I>&gt;<i> 
+</I>728a732
+&gt;<i> 	
+</I>732a737,738
+&gt;<i> 	start = time(0);
+</I>&gt;<i> 	//fprintf(stderr,&quot;Inicio %f\n&quot;, start);
+</I>768a775,823
+&gt;<i> 
+</I>&gt;<i> 
+</I>&gt;<i> void Mix_FFMusic(long int seconds) {
+</I>&gt;<i> 	switch (Mix_GetMusicType(NULL)){
+</I>&gt;<i> 		case MUS_MP3:
+</I>&gt;<i> 		   start -=seconds;
+</I>&gt;<i> 		   Mix_SetMusicPosition(seconds);
+</I>&gt;<i> 		  	
+</I>&gt;<i> 		break;
+</I>&gt;<i> 		
+</I>&gt;<i> 		case MUS_OGG:
+</I>&gt;<i> 		   Mix_SetMusicPosition(Mix_GetMusicPosition() + seconds); 
+</I>&gt;<i> 		   start -=seconds;
+</I>&gt;<i> 
+</I>&gt;<i> 		break;
+</I>&gt;<i> 		}
+</I>&gt;<i> 
+</I>&gt;<i> 	
+</I>&gt;<i> }
+</I>&gt;<i> 
+</I>&gt;<i> 
+</I>&gt;<i> void Mix_RewMusic(long int seconds){
+</I>&gt;<i> 	switch (Mix_GetMusicType(NULL)) {
+</I>&gt;<i> 		case MUS_MP3:
+</I>&gt;<i> 		   Mix_SetMusicPosition(0);
+</I>&gt;<i> 		   Mix_SetMusicPosition(Mix_GetMusicPosition() - seconds); 
+</I>&gt;<i> 		   start += seconds;
+</I>&gt;<i> 		break;
+</I>&gt;<i> 		
+</I>&gt;<i> 		case MUS_OGG:
+</I>&gt;<i> 		   Mix_SetMusicPosition(Mix_GetMusicPosition() - seconds);
+</I>&gt;<i> 		   start += seconds; 
+</I>&gt;<i> 		break;
+</I>&gt;<i> 	}
+</I>&gt;<i> 
+</I>&gt;<i> 
+</I>&gt;<i> }
+</I>&gt;<i> 
+</I>&gt;<i> long int Mix_GetMusicPosition()
+</I>&gt;<i> {
+</I>&gt;<i> 	end = time(0);
+</I>&gt;<i> 	
+</I>&gt;<i> 	duration = difftime(end, start);
+</I>&gt;<i> 	return(duration);
+</I>&gt;<i> 	
+</I>&gt;<i> 		
+</I>&gt;<i> }
+</I>&gt;<i> 
+</I>&gt;<i> 
+</I>772c827,828
+&lt; 
+---
+&gt;<i> 	
+</I>&gt;<i> 	
+</I>959a1016
+&gt;<i> 	
+</I></PRE>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message: <A HREF="062305.html">[SDL] force SDL to create a segfault
+</A></li>
+	<LI>Next message: <A HREF="062307.html">[SDL] SDL_Flip and fps
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html#62306">[ date ]</a>
+              <a href="thread.html#62306">[ thread ]</a>
+              <a href="subject.html#62306">[ subject ]</a>
+              <a href="author.html#62306">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="http://www.libsdl.org/mailman/listinfo/sdl">More information about the SDL
+mailing list</a><br>
+</body></html>

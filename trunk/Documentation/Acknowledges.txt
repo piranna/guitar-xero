@@ -1,0 +1,23 @@
+Acknowledges
+============
+
+laundromat_1967 typographie: Gyom SŽguin (http://www.fontreactor.com/autores/gyom-seguin/)
+
+http://www.siteduzero.com/tuto-3-7420-1-ecrire-du-texte-avec-sdl_ttf.html
+
+http://www.gnacademy.org/text/cc/Tutorial/Spanish/node10.html
+
+http://improv.sapp.org/doc/class/MidiFile/
+http://blogrcaf.com/wiki/doku.php?id=recursos:biblioteca_sdl
+
+Hermes
+http://www.elotrolado.net
+
+http://www.uam.es/personal_pdi/ciencias/fchamizo/agenda/agdesarrollo.html (saber cual es el á&%% flag de Windows... WIN32)
+
+http://www.desktoprating.com/wallpapers/music-wallpapers-pictures/green-guitar-wallpaper.jpg
+
+http://keyboardsonfire.net/forum/viewtopic.php?id=1362
+http://keyboardsonfire.net/forum/viewtopic.php?id=1267
+
+http://www.pygame.org/docs/ref/key.html
