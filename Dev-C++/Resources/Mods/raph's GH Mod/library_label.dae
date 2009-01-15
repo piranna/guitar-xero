@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA version="1.4.0" xmlns="http://www.collada.org/2005/11/COLLADASchema">
+	<asset>
+		<contributor>
+			<author>Illusoft Collada 1.4.0 plugin for Blender - http://colladablender.illusoft.com</author>
+			<authoring_tool>Blender v:243 - Illusoft Collada Exporter v:0.3.108</authoring_tool>
+			<comments></comments>
+			<copyright></copyright>
+			<source_data>file://D:/FoF/cdr/librarylabel.blend</source_data>
+		</contributor>
+		<created>2007-07-04T13:58:14.593000</created>
+		<modified>2007-07-04T13:58:14.593000</modified>
+		<unit meter="0.01" name="centimeter"/>
+		<up_axis>Z_UP</up_axis>
+	</asset>
+	<library_geometries>
+		<geometry id="Plane_002" name="Plane_002">
+			<mesh>
+				<source id="Plane_002-Position">
+					<float_array count="12" id="Plane_002-Position-array">4.07358 1.73351 -0.10885 4.06426 -2.04264 0.02440 -0.19810 -2.04264 -0.27142 -0.18878 1.73351 -0.40467</float_array>
+					<technique_common>
+						<accessor count="4" source="#Plane_002-Position-array" stride="3">
+							<param name="X" type="float"/>
+							<param name="Y" type="float"/>
+							<param name="Z" type="float"/>
+						</accessor>
+					</technique_common>
+				</source>
+				<source id="Plane_002-Normals">
+					<float_array count="12" id="Plane_002-Normals-array">-0.06919 0.03534 0.99695 -0.06919 0.03534 0.99695 -0.06919 0.03534 0.99695 -0.06919 0.03534 0.99695</float_array>
+					<technique_common>
+						<accessor count="4" source="#Plane_002-Normals-array" stride="3">
+							<param name="X" type="float"/>
+							<param name="Y" type="float"/>
+							<param name="Z" type="float"/>
+						</accessor>
+					</technique_common>
+				</source>
+				<source id="Plane_002-UV">
+					<float_array count="8" id="Plane_002-UV-array">0.00000 1.00000 0.00000 0.00000 1.00000 0.00000 1.00000 1.00000</float_array>
+					<technique_common>
+						<accessor count="4" source="#Plane_002-UV-array" stride="2">
+							<param name="S" type="float"/>
+							<param name="T" type="float"/>
+						</accessor>
+					</technique_common>
+				</source>
+				<vertices id="Plane_002-Vertex">
+					<input semantic="POSITION" source="#Plane_002-Position"/>
+					<input semantic="NORMAL" source="#Plane_002-Normals"/>
+				</vertices>
+				<polygons count="1">
+					<input offset="0" semantic="VERTEX" source="#Plane_002-Vertex"/>
+					<input offset="1" semantic="TEXCOORD" source="#Plane_002-UV"/>
+					<p>0 0 3 1 2 2 1 3</p>
+				</polygons>
+			</mesh>
+		</geometry>
+	</library_geometries>
+	<library_visual_scenes>
+		<visual_scene id="Scene" name="Scene">
+			<node layer="L1" id="label_002" name="label_002">
+				<translate sid="translate">1.92434 0.63062 0.00000</translate>
+				<rotate sid="rotateZ">0 0 1 -176.00000</rotate>
+				<rotate sid="rotateY">0 1 0 0.00000</rotate>
+				<rotate sid="rotateX">1 0 0 90.00000</rotate>
+				<scale sid="scale">1.00000 1.02238 1.00000</scale>
+				<instance_geometry url="#Plane_002">
+					<bind_material>
+						<technique_common/>
+					</bind_material>
+				</instance_geometry>
+			</node>
+		</visual_scene>
+		<visual_scene id="Scene_001" name="Scene_001">
+			<node layer="L1" id="label_002-Node" name="label_002-Node">
+				<translate sid="translate">1.92434 0.63062 0.00000</translate>
+				<rotate sid="rotateZ">0 0 1 -176.00000</rotate>
+				<rotate sid="rotateY">0 1 0 0.00000</rotate>
+				<rotate sid="rotateX">1 0 0 90.00000</rotate>
+				<scale sid="scale">1.00000 1.02238 1.00000</scale>
+				<instance_geometry url="#Plane_002">
+					<bind_material>
+						<technique_common/>
+					</bind_material>
+				</instance_geometry>
+			</node>
+		</visual_scene>
+	</library_visual_scenes>
+	<library_physics_materials>
+		<physics_material id="label_002-PhysicsMaterial" name="label_002-PhysicsMaterial">
+			<technique_common>
+				<dynamic_friction>0</dynamic_friction>
+				<restitution>0</restitution>
+				<static_friction>0</static_friction>
+			</technique_common>
+		</physics_material>
+		<physics_material id="label_002-Node-PhysicsMaterial" name="label_002-Node-PhysicsMaterial">
+			<technique_common>
+				<dynamic_friction>0</dynamic_friction>
+				<restitution>0</restitution>
+				<static_friction>0</static_friction>
+			</technique_common>
+		</physics_material>
+	</library_physics_materials>
+	<library_physics_models>
+		<physics_model id="label_002-PhysicsModel" name="label_002-PhysicsModel">
+			<rigid_body name="label_002-RigidBody" sid="label_002-RigidBody">
+				<technique_common>
+					<dynamic>false</dynamic>
+					<mass>1.0</mass>
+					<instance_physics_material url="#label_002-PhysicsMaterial"/>
+					<shape>
+						<instance_geometry url="#Plane_002"/>
+					</shape>
+				</technique_common>
+			</rigid_body>
+		</physics_model>
+		<physics_model id="label_002-Node-PhysicsModel" name="label_002-Node-PhysicsModel">
+			<rigid_body name="label_002-Node-RigidBody" sid="label_002-Node-RigidBody">
+				<technique_common>
+					<dynamic>false</dynamic>
+					<mass>1.0</mass>
+					<instance_physics_material url="#label_002-Node-PhysicsMaterial"/>
+					<shape>
+						<instance_geometry url="#Plane_002"/>
+					</shape>
+				</technique_common>
+			</rigid_body>
+		</physics_model>
+	</library_physics_models>
+	<library_physics_scenes>
+		<physics_scene id="Scene-Physics" name="Scene-Physics">
+			<instance_physics_model url="#label_002-PhysicsModel">
+				<instance_rigid_body body="label_002-RigidBody" target="#label_002"/>
+			</instance_physics_model>
+		</physics_scene>
+		<physics_scene id="Scene_001-Physics" name="Scene_001-Physics">
+			<instance_physics_model url="#label_002-Node-PhysicsModel">
+				<instance_rigid_body body="label_002-Node-RigidBody" target="#label_002-Node"/>
+			</instance_physics_model>
+		</physics_scene>
+	</library_physics_scenes>
+	<scene>
+		<instance_visual_scene url="#Scene"/>
+		<instance_visual_scene url="#Scene_001"/>
+		<instance_physics_scene url="#Scene-Physics"/>
+		<instance_physics_scene url="#Scene_001-Physics"/>
+	</scene>
+</COLLADA>
