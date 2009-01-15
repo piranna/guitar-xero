@@ -1,0 +1,116 @@
+# Project: Guitar Xero
+# Makefile created by Dev-C++ 4.9.9.2
+# Adapted to Linux by El Piranna <piranna@gmail.com>
+
+CPP  = g++ -D__DEBUG__
+
+OBJ  = build/main.o build/Array.o build/Collection.o build/FileIO.o build/MidiFile.o build/clsParserOptions.o build/clsParserScript.o build/clsSong.o build/common.o build/clsComponent.o build/clsMenu.o build/clsConfiguration.o build/clsConfiguration_actions.o build/clsConfiguration_menus.o build/clsPlaySong.o build/clsSelectSong.o build/clsSelectDificulty.o build/clsSongEditor.o build/clsStartingMenu.o build/clsAudioSDL.o build/clsInputSDL.o build/clsVideoSDL.o build/clsVideoSDL_configuration.o build/clsVideoSDL_menu.o build/clsVideoSDL_playSong.o build/clsVideoSDL_songEditor.o
+
+LINKOBJ  = build/main.o build/Array.o build/Collection.o build/FileIO.o build/MidiFile.o build/clsParserOptions.o build/clsParserScript.o build/clsSong.o build/common.o build/clsComponent.o build/clsMenu.o build/clsConfiguration.o build/clsConfiguration_actions.o build/clsConfiguration_menus.o build/clsPlaySong.o build/clsSelectSong.o build/clsSelectDificulty.o build/clsSongEditor.o build/clsStartingMenu.o build/clsAudioSDL.o build/clsInputSDL.o build/clsVideoSDL.o build/clsVideoSDL_configuration.o build/clsVideoSDL_menu.o build/clsVideoSDL_playSong.o build/clsVideoSDL_songEditor.o
+
+LIBS =  -L"/lib" -lSDLmain -lSDL -lSDL_ttf -lSDL_mixer -lSDL_image -lSDL_gfx  -pg  -g3 
+
+CXXINCS =  -I"/usr/include"  -I"/usr/include/SDL"  -I"../Libs/MidiFile"  -I"../SourceCode/clsParser"  -I"../SourceCode/clsSong"  -I"../SourceCode/Common"  -I"../SourceCode/Components"  -I"../SourceCode/Components/clsMenu"  -I"../SourceCode/Components/Configuration"  -I"../SourceCode/Components/PlaySong"  -I"../SourceCode/Components/SelectSong"  -I"../SourceCode/Components/SelectSong/SelectDificulty"  -I"../SourceCode/Components/SongEditor"  -I"../SourceCode/Components/StartingMenu"  -I"../SourceCode/Interfaces"  -I"../SourceCode/Interfaces/AudioSDL"  -I"../SourceCode/Interfaces/InputSDL"  -I"../SourceCode/Interfaces/VideoSDL" 
+
+BIN  = "bin/GuitarXero"
+
+CXXFLAGS = $(CXXINCS)   -pg -g3
+RM = rm -f
+
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before "bin/GuitarXero" all-after
+
+
+all-before:
+	mkdir build bin
+
+all-after:
+	cp -R ../Resources bin/
+
+
+clean: clean-custom
+	${RM} $(OBJ) $(BIN)
+
+
+$(BIN): $(OBJ)
+	$(CPP) $(LINKOBJ) -o "bin/GuitarXero" $(LIBS)
+
+build/main.o: ../SourceCode/main.cpp
+	$(CPP) -c ../SourceCode/main.cpp -o build/main.o $(CXXFLAGS)
+
+build/Array.o: ../Libs/MidiFile/Array.cpp
+	$(CPP) -c ../Libs/MidiFile/Array.cpp -o build/Array.o $(CXXFLAGS)
+
+build/Collection.o: ../Libs/MidiFile/Collection.cpp
+	$(CPP) -c ../Libs/MidiFile/Collection.cpp -o build/Collection.o $(CXXFLAGS)
+
+build/FileIO.o: ../Libs/MidiFile/FileIO.cpp
+	$(CPP) -c ../Libs/MidiFile/FileIO.cpp -o build/FileIO.o $(CXXFLAGS)
+
+build/MidiFile.o: ../Libs/MidiFile/MidiFile.cpp
+	$(CPP) -c ../Libs/MidiFile/MidiFile.cpp -o build/MidiFile.o $(CXXFLAGS)
+
+build/clsParserOptions.o: ../SourceCode/clsParser/clsParserOptions.cpp
+	$(CPP) -c ../SourceCode/clsParser/clsParserOptions.cpp -o build/clsParserOptions.o $(CXXFLAGS)
+
+build/clsParserScript.o: ../SourceCode/clsParser/clsParserScript.cpp
+	$(CPP) -c ../SourceCode/clsParser/clsParserScript.cpp -o build/clsParserScript.o $(CXXFLAGS)
+
+build/clsSong.o: ../SourceCode/clsSong/clsSong.cpp
+	$(CPP) -c ../SourceCode/clsSong/clsSong.cpp -o build/clsSong.o $(CXXFLAGS)
+
+build/common.o: ../SourceCode/Common/common.cpp
+	$(CPP) -c ../SourceCode/Common/common.cpp -o build/common.o $(CXXFLAGS)
+
+build/clsComponent.o: ../SourceCode/Components/clsComponent.cpp
+	$(CPP) -c ../SourceCode/Components/clsComponent.cpp -o build/clsComponent.o $(CXXFLAGS)
+
+build/clsMenu.o: ../SourceCode/Components/clsMenu/clsMenu.cpp
+	$(CPP) -c ../SourceCode/Components/clsMenu/clsMenu.cpp -o build/clsMenu.o $(CXXFLAGS)
+
+build/clsConfiguration.o: ../SourceCode/Components/Configuration/clsConfiguration.cpp
+	$(CPP) -c ../SourceCode/Components/Configuration/clsConfiguration.cpp -o build/clsConfiguration.o $(CXXFLAGS)
+
+build/clsConfiguration_actions.o: ../SourceCode/Components/Configuration/clsConfiguration_actions.cpp
+	$(CPP) -c ../SourceCode/Components/Configuration/clsConfiguration_actions.cpp -o build/clsConfiguration_actions.o $(CXXFLAGS)
+
+build/clsConfiguration_menus.o: ../SourceCode/Components/Configuration/clsConfiguration_menus.cpp
+	$(CPP) -c ../SourceCode/Components/Configuration/clsConfiguration_menus.cpp -o build/clsConfiguration_menus.o $(CXXFLAGS)
+
+build/clsPlaySong.o: ../SourceCode/Components/PlaySong/clsPlaySong.cpp
+	$(CPP) -c ../SourceCode/Components/PlaySong/clsPlaySong.cpp -o build/clsPlaySong.o $(CXXFLAGS)
+
+build/clsSelectSong.o: ../SourceCode/Components/SelectSong/clsSelectSong.cpp
+	$(CPP) -c ../SourceCode/Components/SelectSong/clsSelectSong.cpp -o build/clsSelectSong.o $(CXXFLAGS)
+
+build/clsSelectDificulty.o: ../SourceCode/Components/SelectSong/SelectDificulty/clsSelectDificulty.cpp
+	$(CPP) -c ../SourceCode/Components/SelectSong/SelectDificulty/clsSelectDificulty.cpp -o build/clsSelectDificulty.o $(CXXFLAGS)
+
+build/clsSongEditor.o: ../SourceCode/Components/SongEditor/clsSongEditor.cpp
+	$(CPP) -c ../SourceCode/Components/SongEditor/clsSongEditor.cpp -o build/clsSongEditor.o $(CXXFLAGS)
+
+build/clsStartingMenu.o: ../SourceCode/Components/StartingMenu/clsStartingMenu.cpp
+	$(CPP) -c ../SourceCode/Components/StartingMenu/clsStartingMenu.cpp -o build/clsStartingMenu.o $(CXXFLAGS)
+
+build/clsAudioSDL.o: ../SourceCode/Interfaces/AudioSDL/clsAudioSDL.cpp
+	$(CPP) -c ../SourceCode/Interfaces/AudioSDL/clsAudioSDL.cpp -o build/clsAudioSDL.o $(CXXFLAGS)
+
+build/clsInputSDL.o: ../SourceCode/Interfaces/InputSDL/clsInputSDL.cpp
+	$(CPP) -c ../SourceCode/Interfaces/InputSDL/clsInputSDL.cpp -o build/clsInputSDL.o $(CXXFLAGS)
+
+build/clsVideoSDL.o: ../SourceCode/Interfaces/VideoSDL/clsVideoSDL.cpp
+	$(CPP) -c ../SourceCode/Interfaces/VideoSDL/clsVideoSDL.cpp -o build/clsVideoSDL.o $(CXXFLAGS)
+
+build/clsVideoSDL_configuration.o: ../SourceCode/Interfaces/VideoSDL/clsVideoSDL_configuration.cpp
+	$(CPP) -c ../SourceCode/Interfaces/VideoSDL/clsVideoSDL_configuration.cpp -o build/clsVideoSDL_configuration.o $(CXXFLAGS)
+
+build/clsVideoSDL_menu.o: ../SourceCode/Interfaces/VideoSDL/clsVideoSDL_menu.cpp
+	$(CPP) -c ../SourceCode/Interfaces/VideoSDL/clsVideoSDL_menu.cpp -o build/clsVideoSDL_menu.o $(CXXFLAGS)
+
+build/clsVideoSDL_playSong.o: ../SourceCode/Interfaces/VideoSDL/clsVideoSDL_playSong.cpp
+	$(CPP) -c ../SourceCode/Interfaces/VideoSDL/clsVideoSDL_playSong.cpp -o build/clsVideoSDL_playSong.o $(CXXFLAGS)
+
+build/clsVideoSDL_songEditor.o: ../SourceCode/Interfaces/VideoSDL/clsVideoSDL_songEditor.cpp
+	$(CPP) -c ../SourceCode/Interfaces/VideoSDL/clsVideoSDL_songEditor.cpp -o build/clsVideoSDL_songEditor.o $(CXXFLAGS)
