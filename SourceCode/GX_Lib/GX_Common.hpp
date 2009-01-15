@@ -1,0 +1,1 @@
+int GetOptionMultiple(char* options[], char* block, char* option);
