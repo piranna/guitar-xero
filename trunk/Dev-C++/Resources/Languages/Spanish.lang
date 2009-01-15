@@ -1,0 +1,79 @@
+[Spanish]
+Spanish = Español
+
+Back = Volver
+Yes = Si
+No = No
+
+Return = Return
+Right shift = Right shift
+
+Play = Jugar
+Tutorial = Tutorial
+Song editor = Editor de canciones
+Configuration = Configuracion
+Credits = Creditos
+Exit = Salir
+Escape = Escape
+Normal = Normal
+
+There are no songs = No hay canciones
+
+Edit existing songs = Editar canciones existentes
+Import new songs = Importar nuevas canciones
+Import Guitar Hero (TM) songs = Importar canciones de Guitar Hero (TM)
+
+Game config = Configuracion del juego
+Control config = Configuracion de los controles
+Video config = Configuracion de video
+Sound config = Configuracion de sonido
+
+Mod settings = Configurar las modificaciones
+Language = Lenguaje
+Left mode = Modo zurdo
+Upload punctuations = Subir puntuaciones
+
+Try keys = Probar teclas
+Action = Accionar
+Second action = Segundo accionador
+Move left = Mover a la izquierda
+Move right = Mover a la derecha
+Move up = Mover arriba
+Move down = Mover abajo
+Input library = Libreria de entrada
+Cancel = Cancelar
+
+Play with the keys = Juega con las teclas
+
+Video resolution = Resolucion de video
+Fullscreen mode = Modo a pantalla completa
+Smooth quality = Calidad de suavizado
+SVG quality = Calidad de los SVG
+Text scale = Escalado del texto
+Graphic library = Libreria grafica
+
+Volumen settings = Ajuste de volumen
+Audio/Video lag = Retraso Audio/Video
+Sample frequency = Frecuencia del sample
+Sample bits = Bits del sample
+Buffer size = Tamaño del buffer
+Audio library = Libreria de audio
+
+Guitar volume = Volumen de la guitarra
+Song volume = Volumen de la cancion
+Rythm volume = Volumen del bajo
+Over the sound = Por encima del sonido
+
+Supaeasy = Superfacil
+Easy = Facil
+Medium = Medio
+Amazing = Dificil
+
+True = Si
+False = No
+
+It Rocks! = ¡Que Caña!
+
+Song finished! = ¡Cancion terminada!
+Exactitude = Exactitud
+Notes serie = Racha de notas
