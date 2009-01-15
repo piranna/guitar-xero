@@ -1,0 +1,9 @@
+//
+// Prefix header for all source files of the 'Guitar Xero' target in the 'Guitar Xero' project
+//
+
+#include "SDL.h"
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif

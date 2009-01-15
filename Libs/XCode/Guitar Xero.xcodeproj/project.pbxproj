@@ -1,0 +1,1395 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		002F39FA09D0881F00EBEB88 /* SDL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 002F39F909D0881F00EBEB88 /* SDL.framework */; };
+		002F3A0009D0884600EBEB88 /* SDL.framework in Copy Frameworks into .app bundle */ = {isa = PBXBuildFile; fileRef = 002F39F909D0881F00EBEB88 /* SDL.framework */; };
+		002F3C0109D093BD00EBEB88 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 002F3C0009D093BD00EBEB88 /* OpenGL.framework */; };
+		800406C50DF2DC9C00E39C61 /* Array.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 800406870DF2DC9C00E39C61 /* Array.cpp */; };
+		800406C60DF2DC9C00E39C61 /* Collection.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 800406890DF2DC9C00E39C61 /* Collection.cpp */; };
+		800406C70DF2DC9C00E39C61 /* FileIO.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8004068B0DF2DC9C00E39C61 /* FileIO.cpp */; };
+		800406C80DF2DC9C00E39C61 /* MidiFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8004068D0DF2DC9C00E39C61 /* MidiFile.cpp */; };
+		800407D70DF2DD7500E39C61 /* SDLMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 8004077F0DF2DD7500E39C61 /* SDLMain.m */; };
+		800407DD0DF2DE4800E39C61 /* SDL_image.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 800407DA0DF2DE4800E39C61 /* SDL_image.framework */; };
+		800407DE0DF2DE4800E39C61 /* SDL_mixer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 800407DB0DF2DE4800E39C61 /* SDL_mixer.framework */; };
+		800407DF0DF2DE4800E39C61 /* SDL_ttf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 800407DC0DF2DE4800E39C61 /* SDL_ttf.framework */; };
+		800407FB0DF2DFFE00E39C61 /* Languages in Resources */ = {isa = PBXBuildFile; fileRef = 800407F70DF2DFFE00E39C61 /* Languages */; };
+		800408080DF2E00D00E39C61 /* Media in Resources */ = {isa = PBXBuildFile; fileRef = 800407FC0DF2E00D00E39C61 /* Media */; };
+		8007D6780F0C18D7001C55F6 /* GX_Common.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8007D6770F0C18D7001C55F6 /* GX_Common.cpp */; };
+		8007D9470F0D3FFD001C55F6 /* Widget.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8007D9460F0D3FFD001C55F6 /* Widget.cpp */; };
+		800B522E0EF86E4B00DDC8C0 /* Timer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 800B522C0EF86E4B00DDC8C0 /* Timer.cpp */; };
+		800B52490EF86FC900DDC8C0 /* Input.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 800B52440EF86FC900DDC8C0 /* Input.cpp */; };
+		800B524A0EF86FC900DDC8C0 /* InputSDL.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 800B52470EF86FC900DDC8C0 /* InputSDL.cpp */; };
+		800B52530EF8714000DDC8C0 /* Actions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 800B524F0EF8714000DDC8C0 /* Actions.cpp */; };
+		800B52540EF8714000DDC8C0 /* common.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 800B52510EF8714000DDC8C0 /* common.cpp */; };
+		800B52AE0EF9967900DDC8C0 /* List.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 800B52AC0EF9967900DDC8C0 /* List.cpp */; };
+		800B52FE0EF99BDC00DDC8C0 /* Parser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 800B52F80EF99BDC00DDC8C0 /* Parser.cpp */; };
+		800B52FF0EF99BDC00DDC8C0 /* ParserOptions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 800B52FA0EF99BDC00DDC8C0 /* ParserOptions.cpp */; };
+		800B53000EF99BDC00DDC8C0 /* ParserScript.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 800B52FC0EF99BDC00DDC8C0 /* ParserScript.cpp */; };
+		800B53090EF99FF800DDC8C0 /* StartingMenu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 800B53070EF99FF800DDC8C0 /* StartingMenu.cpp */; };
+		800B53160EF9A00700DDC8C0 /* MainLoop.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 800B530C0EF9A00700DDC8C0 /* MainLoop.cpp */; };
+		800B53180EF9A00700DDC8C0 /* WidgetWindow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 800B53140EF9A00700DDC8C0 /* WidgetWindow.cpp */; };
+		800B531D0EF9A06E00DDC8C0 /* MainMenu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 800B531B0EF9A06E00DDC8C0 /* MainMenu.cpp */; };
+		800B53330EF9A0ED00DDC8C0 /* Audio.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 800B532E0EF9A0ED00DDC8C0 /* Audio.cpp */; };
+		800B53340EF9A0ED00DDC8C0 /* AudioSDL.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 800B53310EF9A0ED00DDC8C0 /* AudioSDL.cpp */; };
+		800B53980EF9AAA900DDC8C0 /* Song.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 800B53960EF9AAA800DDC8C0 /* Song.cpp */; };
+		801D71400EFD7F7B00ED83E7 /* WidgetLabel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 801D713F0EFD7F7B00ED83E7 /* WidgetLabel.cpp */; };
+		8020A9340DF359E600288A1E /* OGL_S2T.c in Sources */ = {isa = PBXBuildFile; fileRef = 8020A9320DF359E600288A1E /* OGL_S2T.c */; };
+		8027215D0E139BD1006B94DA /* Tutorial in Resources */ = {isa = PBXBuildFile; fileRef = 802721530E139BD1006B94DA /* Tutorial */; };
+		802D60360E43F01D007B16E9 /* SDL_framerate.c in Sources */ = {isa = PBXBuildFile; fileRef = 802D602B0E43F01D007B16E9 /* SDL_framerate.c */; };
+		802D60370E43F01D007B16E9 /* SDL_gfxBlitFunc.c in Sources */ = {isa = PBXBuildFile; fileRef = 802D602D0E43F01D007B16E9 /* SDL_gfxBlitFunc.c */; };
+		802D60380E43F01D007B16E9 /* SDL_gfxPrimitives.c in Sources */ = {isa = PBXBuildFile; fileRef = 802D602F0E43F01D007B16E9 /* SDL_gfxPrimitives.c */; };
+		802D60390E43F01D007B16E9 /* SDL_imageFilter.c in Sources */ = {isa = PBXBuildFile; fileRef = 802D60320E43F01D007B16E9 /* SDL_imageFilter.c */; };
+		802D603A0E43F01D007B16E9 /* SDL_rotozoom.c in Sources */ = {isa = PBXBuildFile; fileRef = 802D60340E43F01D007B16E9 /* SDL_rotozoom.c */; };
+		8039E6390F069D7B00A78695 /* WidgetFretboard.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8039E6370F069D7B00A78695 /* WidgetFretboard.cpp */; };
+		8039E8770F07F81B00A78695 /* TextMenu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8039E8760F07F81B00A78695 /* TextMenu.cpp */; };
+		8039E8DA0F07FAF800A78695 /* SongEditor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8039E8D80F07FAF800A78695 /* SongEditor.cpp */; };
+		8039E8F50F07FC0700A78695 /* SoundConfig.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8039E8F30F07FC0700A78695 /* SoundConfig.cpp */; };
+		8039E9B30F081E3000A78695 /* MenuContainer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8039E9B20F081E3000A78695 /* MenuContainer.cpp */; };
+		8039EAC50F08B8D100A78695 /* WidgetBoolean.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8039EAC30F08B8D100A78695 /* WidgetBoolean.cpp */; };
+		8039EB180F08BE2700A78695 /* ModSettings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8039EB160F08BE2700A78695 /* ModSettings.cpp */; };
+		8039EB3F0F08C11500A78695 /* ControlConfig.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8039EB3D0F08C11500A78695 /* ControlConfig.cpp */; };
+		8039EB470F08C28E00A78695 /* VideoConfig.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8039EB450F08C28E00A78695 /* VideoConfig.cpp */; };
+		8039EB550F0948DA00A78695 /* NoSongs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8039EB530F0948DA00A78695 /* NoSongs.cpp */; };
+		8039EC110F096B3100A78695 /* TryKeys.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8039EC0F0F096B3100A78695 /* TryKeys.cpp */; };
+		8039EC500F096EA500A78695 /* SongFinished.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8039EC4E0F096EA500A78695 /* SongFinished.cpp */; };
+		8039EC560F09748300A78695 /* WidgetMultiple.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8039EC550F09748300A78695 /* WidgetMultiple.cpp */; };
+		8062F4A50F156A4100E068F8 /* WidgetTextbox.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8062F4A30F156A4100E068F8 /* WidgetTextbox.cpp */; };
+		8062F6AA0F156A9900E068F8 /* WidgetBanner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8062F6A20F156A9900E068F8 /* WidgetBanner.cpp */; };
+		8062F6AB0F156A9900E068F8 /* WidgetExactitude.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8062F6A50F156A9900E068F8 /* WidgetExactitude.cpp */; };
+		8062F6AC0F156A9900E068F8 /* WidgetKeynotes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8062F6A80F156A9900E068F8 /* WidgetKeynotes.cpp */; };
+		8062F6C80F156B0200E068F8 /* MenuKey.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8062F6C60F156B0200E068F8 /* MenuKey.cpp */; };
+		8062F7490F16A71800E068F8 /* Note.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8062F7480F16A71800E068F8 /* Note.cpp */; };
+		8062FB3F0F1A460A00E068F8 /* MenuData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8062FB3E0F1A460A00E068F8 /* MenuData.cpp */; };
+		8062FB410F1A461700E068F8 /* MenuManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8062FB400F1A461700E068F8 /* MenuManager.cpp */; };
+		80A4FACA0F0D624F0017FD35 /* WidgetSlider.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 80A4FAC90F0D624F0017FD35 /* WidgetSlider.cpp */; };
+		80B1185B0F00593800F2DC59 /* MenuDirElement.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 80B118590F00593800F2DC59 /* MenuDirElement.cpp */; };
+		80BDF3B10EFEF79E00366C0D /* Configuration.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 80BDF3AF0EFEF79E00366C0D /* Configuration.cpp */; };
+		80BDF3EE0EFEFB5A00366C0D /* GameConfig.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 80BDF3EC0EFEFB5A00366C0D /* GameConfig.cpp */; };
+		80BDF46C0F003B7F00366C0D /* DirMenuManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 800B556A0EFA6DB200DDC8C0 /* DirMenuManager.cpp */; };
+		80BDF4730F003C7D00366C0D /* SongSelector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 80BDF4720F003C7D00366C0D /* SongSelector.cpp */; };
+		80D7A9840E1195B800A14F3E /* Songs in Resources */ = {isa = PBXBuildFile; fileRef = 80D7A9820E1195B800A14F3E /* Songs */; };
+		80E07EB70F02D94F001F8600 /* MenuSong.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 80E07EB60F02D94F001F8600 /* MenuSong.cpp */; };
+		80E07EBA0F02D95F001F8600 /* MenuAlbum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 80E07EB90F02D95F001F8600 /* MenuAlbum.cpp */; };
+		80E0819C0F044755001F8600 /* SelectDificulty.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 80E0819A0F044755001F8600 /* SelectDificulty.cpp */; };
+		80E081D40F04570C001F8600 /* PlaySong.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 80E081D20F04570C001F8600 /* PlaySong.cpp */; };
+		80E082190F04CF76001F8600 /* WidgetScript.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 80E082170F04CF76001F8600 /* WidgetScript.cpp */; };
+		80E082EE0F05A41A001F8600 /* PauseWindow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 80E082EC0F05A419001F8600 /* PauseWindow.cpp */; };
+		80E0830E0F05A5FA001F8600 /* PauseMenu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 80E0830C0F05A5FA001F8600 /* PauseMenu.cpp */; };
+		80E083AF0F05B506001F8600 /* VolumeSettings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 80E083AD0F05B505001F8600 /* VolumeSettings.cpp */; };
+		80E083BA0F05B7D6001F8600 /* WidgetSplash.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 80E083B90F05B7D4001F8600 /* WidgetSplash.cpp */; };
+		80E083C10F066917001F8600 /* WidgetLifebar.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 80E083BF0F06690E001F8600 /* WidgetLifebar.cpp */; };
+		80EF9E3C0E9848EE0092A391 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 80EF9E110E9848EE0092A391 /* main.cpp */; };
+		80F4589A0E015C7F0020387B /* Mods in Resources */ = {isa = PBXBuildFile; fileRef = 80F458980E015C7F0020387B /* Mods */; };
+		80F4E4090EFC2258004311F0 /* Video.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 80F4E4070EFC2258004311F0 /* Video.cpp */; };
+		80F4E4440EFC2428004311F0 /* VideoSDL.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 80F4E4400EFC2428004311F0 /* VideoSDL.cpp */; };
+		80F4E4450EFC2428004311F0 /* VideoSDL_Base.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 80F4E4420EFC2428004311F0 /* VideoSDL_Base.cpp */; };
+		80F4E5810EFC3B6D004311F0 /* WidgetAnimatedBackground.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 80F4E57F0EFC3B6D004311F0 /* WidgetAnimatedBackground.cpp */; };
+		80F4E7660EFC49A6004311F0 /* WidgetMenu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 800B55A80EFA6DCA00DDC8C0 /* WidgetMenu.cpp */; };
+		80F4E7900EFC4C17004311F0 /* TextMenuManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 800B55700EFA6DB300DDC8C0 /* TextMenuManager.cpp */; };
+		80F4E7ED0EFCF453004311F0 /* MenuSubmenu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 80F4E7EC0EFCF453004311F0 /* MenuSubmenu.cpp */; };
+		80F4E8C10EFD07AF004311F0 /* GX_Graphic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 80F4E8B80EFD07AF004311F0 /* GX_Graphic.cpp */; };
+		80F4E8C20EFD07AF004311F0 /* GX_GraphicSDL.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 80F4E8BA0EFD07AF004311F0 /* GX_GraphicSDL.cpp */; };
+		80F628630EFC15DC00F5DE09 /* WidgetBackground.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 80F628610EFC15DC00F5DE09 /* WidgetBackground.cpp */; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		002F39FD09D0883400EBEB88 /* Copy Frameworks into .app bundle */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				002F3A0009D0884600EBEB88 /* SDL.framework in Copy Frameworks into .app bundle */,
+			);
+			name = "Copy Frameworks into .app bundle";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		002F39F909D0881F00EBEB88 /* SDL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL.framework; path = /Library/Frameworks/SDL.framework; sourceTree = "<absolute>"; };
+		002F3C0009D093BD00EBEB88 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		800406870DF2DC9C00E39C61 /* Array.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Array.cpp; sourceTree = "<group>"; };
+		800406880DF2DC9C00E39C61 /* Array.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Array.h; sourceTree = "<group>"; };
+		800406890DF2DC9C00E39C61 /* Collection.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Collection.cpp; sourceTree = "<group>"; };
+		8004068A0DF2DC9C00E39C61 /* Collection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Collection.h; sourceTree = "<group>"; };
+		8004068B0DF2DC9C00E39C61 /* FileIO.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FileIO.cpp; sourceTree = "<group>"; };
+		8004068C0DF2DC9C00E39C61 /* FileIO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileIO.h; sourceTree = "<group>"; };
+		8004068D0DF2DC9C00E39C61 /* MidiFile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MidiFile.cpp; sourceTree = "<group>"; };
+		8004068E0DF2DC9C00E39C61 /* MidiFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MidiFile.h; sourceTree = "<group>"; };
+		8004068F0DF2DC9C00E39C61 /* sigConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sigConfiguration.h; sourceTree = "<group>"; };
+		800406F90DF2DD4D00E39C61 /* GuitarXero.ini */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = GuitarXero.ini; sourceTree = "<group>"; };
+		8004077C0DF2DD7500E39C61 /* Guitar Xero_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Guitar Xero_Prefix.pch"; sourceTree = "<group>"; };
+		8004077E0DF2DD7500E39C61 /* SDLMain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDLMain.h; sourceTree = "<group>"; };
+		8004077F0DF2DD7500E39C61 /* SDLMain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDLMain.m; sourceTree = "<group>"; };
+		800407DA0DF2DE4800E39C61 /* SDL_image.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL_image.framework; path = /Library/Frameworks/SDL_image.framework; sourceTree = "<absolute>"; };
+		800407DB0DF2DE4800E39C61 /* SDL_mixer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL_mixer.framework; path = /Library/Frameworks/SDL_mixer.framework; sourceTree = "<absolute>"; };
+		800407DC0DF2DE4800E39C61 /* SDL_ttf.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL_ttf.framework; path = /Library/Frameworks/SDL_ttf.framework; sourceTree = "<absolute>"; };
+		800407F70DF2DFFE00E39C61 /* Languages */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Languages; sourceTree = "<group>"; };
+		800407FC0DF2E00D00E39C61 /* Media */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Media; sourceTree = "<group>"; };
+		8007D6760F0C18D7001C55F6 /* GX_Common.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = GX_Common.hpp; sourceTree = "<group>"; };
+		8007D6770F0C18D7001C55F6 /* GX_Common.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GX_Common.cpp; sourceTree = "<group>"; };
+		8007D7DF0F0D343E001C55F6 /* MenuEntry.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = MenuEntry.hpp; sourceTree = "<group>"; };
+		8007D9460F0D3FFD001C55F6 /* Widget.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Widget.cpp; sourceTree = "<group>"; };
+		800B518A0EF86CE600DDC8C0 /* compileConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = compileConfiguration.h; sourceTree = "<group>"; };
+		800B522C0EF86E4B00DDC8C0 /* Timer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Timer.cpp; sourceTree = "<group>"; };
+		800B522D0EF86E4B00DDC8C0 /* Timer.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Timer.hpp; sourceTree = "<group>"; };
+		800B52440EF86FC900DDC8C0 /* Input.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Input.cpp; sourceTree = "<group>"; };
+		800B52450EF86FC900DDC8C0 /* Input.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Input.hpp; sourceTree = "<group>"; };
+		800B52470EF86FC900DDC8C0 /* InputSDL.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = InputSDL.cpp; sourceTree = "<group>"; };
+		800B52480EF86FC900DDC8C0 /* InputSDL.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = InputSDL.hpp; sourceTree = "<group>"; };
+		800B524F0EF8714000DDC8C0 /* Actions.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Actions.cpp; sourceTree = "<group>"; };
+		800B52500EF8714000DDC8C0 /* Actions.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Actions.hpp; sourceTree = "<group>"; };
+		800B52510EF8714000DDC8C0 /* common.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = common.cpp; sourceTree = "<group>"; };
+		800B52520EF8714000DDC8C0 /* common.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = common.hpp; sourceTree = "<group>"; };
+		800B52AC0EF9967900DDC8C0 /* List.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = List.cpp; sourceTree = "<group>"; };
+		800B52AD0EF9967900DDC8C0 /* List.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = List.hpp; sourceTree = "<group>"; };
+		800B52EB0EF99B9F00DDC8C0 /* constants.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = constants.hpp; sourceTree = "<group>"; };
+		800B52EC0EF99B9F00DDC8C0 /* defaults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = defaults.h; sourceTree = "<group>"; };
+		800B52F80EF99BDC00DDC8C0 /* Parser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Parser.cpp; sourceTree = "<group>"; };
+		800B52F90EF99BDC00DDC8C0 /* Parser.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Parser.hpp; sourceTree = "<group>"; };
+		800B52FA0EF99BDC00DDC8C0 /* ParserOptions.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ParserOptions.cpp; sourceTree = "<group>"; };
+		800B52FB0EF99BDC00DDC8C0 /* ParserOptions.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ParserOptions.hpp; sourceTree = "<group>"; };
+		800B52FC0EF99BDC00DDC8C0 /* ParserScript.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ParserScript.cpp; sourceTree = "<group>"; };
+		800B52FD0EF99BDC00DDC8C0 /* ParserScript.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ParserScript.hpp; sourceTree = "<group>"; };
+		800B53070EF99FF800DDC8C0 /* StartingMenu.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = StartingMenu.cpp; sourceTree = "<group>"; };
+		800B53080EF99FF800DDC8C0 /* StartingMenu.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = StartingMenu.hpp; sourceTree = "<group>"; };
+		800B530C0EF9A00700DDC8C0 /* MainLoop.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MainLoop.cpp; sourceTree = "<group>"; };
+		800B530D0EF9A00700DDC8C0 /* MainLoop.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = MainLoop.hpp; sourceTree = "<group>"; };
+		800B53100EF9A00700DDC8C0 /* MenuData.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = MenuData.hpp; sourceTree = "<group>"; };
+		800B53120EF9A00700DDC8C0 /* Widget.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Widget.hpp; sourceTree = "<group>"; };
+		800B53140EF9A00700DDC8C0 /* WidgetWindow.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = WidgetWindow.cpp; sourceTree = "<group>"; };
+		800B53150EF9A00700DDC8C0 /* WidgetWindow.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = WidgetWindow.hpp; sourceTree = "<group>"; };
+		800B531B0EF9A06E00DDC8C0 /* MainMenu.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MainMenu.cpp; sourceTree = "<group>"; };
+		800B531C0EF9A06E00DDC8C0 /* MainMenu.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = MainMenu.hpp; sourceTree = "<group>"; };
+		800B532E0EF9A0ED00DDC8C0 /* Audio.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Audio.cpp; sourceTree = "<group>"; };
+		800B532F0EF9A0ED00DDC8C0 /* Audio.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Audio.hpp; sourceTree = "<group>"; };
+		800B53310EF9A0ED00DDC8C0 /* AudioSDL.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AudioSDL.cpp; sourceTree = "<group>"; };
+		800B53320EF9A0ED00DDC8C0 /* AudioSDL.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = AudioSDL.hpp; sourceTree = "<group>"; };
+		800B53950EF9AAA800DDC8C0 /* Note.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Note.hpp; sourceTree = "<group>"; };
+		800B53960EF9AAA800DDC8C0 /* Song.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Song.cpp; sourceTree = "<group>"; };
+		800B53970EF9AAA900DDC8C0 /* Song.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Song.hpp; sourceTree = "<group>"; };
+		800B556A0EFA6DB200DDC8C0 /* DirMenuManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DirMenuManager.cpp; sourceTree = "<group>"; };
+		800B556B0EFA6DB300DDC8C0 /* DirMenuManager.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = DirMenuManager.hpp; sourceTree = "<group>"; };
+		800B55700EFA6DB300DDC8C0 /* TextMenuManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TextMenuManager.cpp; sourceTree = "<group>"; };
+		800B55710EFA6DB300DDC8C0 /* TextMenuManager.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = TextMenuManager.hpp; sourceTree = "<group>"; };
+		800B55A70EFA6DCA00DDC8C0 /* MenuManager.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = MenuManager.hpp; sourceTree = "<group>"; };
+		800B55A80EFA6DCA00DDC8C0 /* WidgetMenu.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = WidgetMenu.cpp; sourceTree = "<group>"; };
+		800B55A90EFA6DCA00DDC8C0 /* WidgetMenu.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = WidgetMenu.hpp; sourceTree = "<group>"; };
+		801D713E0EFD7F7B00ED83E7 /* WidgetLabel.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = WidgetLabel.hpp; sourceTree = "<group>"; };
+		801D713F0EFD7F7B00ED83E7 /* WidgetLabel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = WidgetLabel.cpp; sourceTree = "<group>"; };
+		8020A9320DF359E600288A1E /* OGL_S2T.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; path = OGL_S2T.c; sourceTree = "<group>"; };
+		8020A9330DF359E600288A1E /* OGL_S2T.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; path = OGL_S2T.h; sourceTree = "<group>"; };
+		802721530E139BD1006B94DA /* Tutorial */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Tutorial; sourceTree = "<group>"; };
+		802D602B0E43F01D007B16E9 /* SDL_framerate.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SDL_framerate.c; sourceTree = "<group>"; };
+		802D602C0E43F01D007B16E9 /* SDL_framerate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDL_framerate.h; sourceTree = "<group>"; };
+		802D602D0E43F01D007B16E9 /* SDL_gfxBlitFunc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SDL_gfxBlitFunc.c; sourceTree = "<group>"; };
+		802D602E0E43F01D007B16E9 /* SDL_gfxBlitFunc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDL_gfxBlitFunc.h; sourceTree = "<group>"; };
+		802D602F0E43F01D007B16E9 /* SDL_gfxPrimitives.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SDL_gfxPrimitives.c; sourceTree = "<group>"; };
+		802D60300E43F01D007B16E9 /* SDL_gfxPrimitives.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDL_gfxPrimitives.h; sourceTree = "<group>"; };
+		802D60310E43F01D007B16E9 /* SDL_gfxPrimitives_font.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDL_gfxPrimitives_font.h; sourceTree = "<group>"; };
+		802D60320E43F01D007B16E9 /* SDL_imageFilter.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SDL_imageFilter.c; sourceTree = "<group>"; };
+		802D60330E43F01D007B16E9 /* SDL_imageFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDL_imageFilter.h; sourceTree = "<group>"; };
+		802D60340E43F01D007B16E9 /* SDL_rotozoom.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SDL_rotozoom.c; sourceTree = "<group>"; };
+		802D60350E43F01D007B16E9 /* SDL_rotozoom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDL_rotozoom.h; sourceTree = "<group>"; };
+		8039E6370F069D7B00A78695 /* WidgetFretboard.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = WidgetFretboard.cpp; sourceTree = "<group>"; };
+		8039E6380F069D7B00A78695 /* WidgetFretboard.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = WidgetFretboard.hpp; sourceTree = "<group>"; };
+		8039E7130F07831900A78695 /* GuitarXero original.ini */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "GuitarXero original.ini"; sourceTree = "<group>"; };
+		8039E8750F07F72F00A78695 /* TextMenu.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = TextMenu.hpp; sourceTree = "<group>"; };
+		8039E8760F07F81B00A78695 /* TextMenu.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TextMenu.cpp; sourceTree = "<group>"; };
+		8039E8D80F07FAF800A78695 /* SongEditor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SongEditor.cpp; sourceTree = "<group>"; };
+		8039E8D90F07FAF800A78695 /* SongEditor.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = SongEditor.hpp; sourceTree = "<group>"; };
+		8039E8F30F07FC0700A78695 /* SoundConfig.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SoundConfig.cpp; sourceTree = "<group>"; };
+		8039E8F40F07FC0700A78695 /* SoundConfig.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = SoundConfig.hpp; sourceTree = "<group>"; };
+		8039E9B10F081E3000A78695 /* MenuContainer.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = MenuContainer.hpp; sourceTree = "<group>"; };
+		8039E9B20F081E3000A78695 /* MenuContainer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MenuContainer.cpp; sourceTree = "<group>"; };
+		8039EAC30F08B8D100A78695 /* WidgetBoolean.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = WidgetBoolean.cpp; sourceTree = "<group>"; };
+		8039EAC40F08B8D100A78695 /* WidgetBoolean.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = WidgetBoolean.hpp; sourceTree = "<group>"; };
+		8039EB160F08BE2700A78695 /* ModSettings.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ModSettings.cpp; sourceTree = "<group>"; };
+		8039EB170F08BE2700A78695 /* ModSettings.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ModSettings.hpp; sourceTree = "<group>"; };
+		8039EB3D0F08C11500A78695 /* ControlConfig.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ControlConfig.cpp; sourceTree = "<group>"; };
+		8039EB3E0F08C11500A78695 /* ControlConfig.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ControlConfig.hpp; sourceTree = "<group>"; };
+		8039EB450F08C28E00A78695 /* VideoConfig.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = VideoConfig.cpp; sourceTree = "<group>"; };
+		8039EB460F08C28E00A78695 /* VideoConfig.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = VideoConfig.hpp; sourceTree = "<group>"; };
+		8039EB530F0948DA00A78695 /* NoSongs.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NoSongs.cpp; sourceTree = "<group>"; };
+		8039EB540F0948DA00A78695 /* NoSongs.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = NoSongs.hpp; sourceTree = "<group>"; };
+		8039EC0F0F096B3100A78695 /* TryKeys.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TryKeys.cpp; sourceTree = "<group>"; };
+		8039EC100F096B3100A78695 /* TryKeys.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = TryKeys.hpp; sourceTree = "<group>"; };
+		8039EC4E0F096EA500A78695 /* SongFinished.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SongFinished.cpp; sourceTree = "<group>"; };
+		8039EC4F0F096EA500A78695 /* SongFinished.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = SongFinished.hpp; sourceTree = "<group>"; };
+		8039EC540F09748300A78695 /* WidgetMultiple.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = WidgetMultiple.hpp; sourceTree = "<group>"; };
+		8039EC550F09748300A78695 /* WidgetMultiple.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = WidgetMultiple.cpp; sourceTree = "<group>"; };
+		8062F4A30F156A4100E068F8 /* WidgetTextbox.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = WidgetTextbox.cpp; sourceTree = "<group>"; };
+		8062F4A40F156A4100E068F8 /* WidgetTextbox.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = WidgetTextbox.hpp; sourceTree = "<group>"; };
+		8062F6A20F156A9900E068F8 /* WidgetBanner.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = WidgetBanner.cpp; sourceTree = "<group>"; };
+		8062F6A30F156A9900E068F8 /* WidgetBanner.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = WidgetBanner.hpp; sourceTree = "<group>"; };
+		8062F6A50F156A9900E068F8 /* WidgetExactitude.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = WidgetExactitude.cpp; sourceTree = "<group>"; };
+		8062F6A60F156A9900E068F8 /* WidgetExactitude.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = WidgetExactitude.hpp; sourceTree = "<group>"; };
+		8062F6A80F156A9900E068F8 /* WidgetKeynotes.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = WidgetKeynotes.cpp; sourceTree = "<group>"; };
+		8062F6A90F156A9900E068F8 /* WidgetKeynotes.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = WidgetKeynotes.hpp; sourceTree = "<group>"; };
+		8062F6C60F156B0200E068F8 /* MenuKey.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MenuKey.cpp; sourceTree = "<group>"; };
+		8062F6C70F156B0200E068F8 /* MenuKey.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = MenuKey.hpp; sourceTree = "<group>"; };
+		8062F7480F16A71800E068F8 /* Note.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Note.cpp; sourceTree = "<group>"; };
+		8062FB3E0F1A460A00E068F8 /* MenuData.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MenuData.cpp; sourceTree = "<group>"; };
+		8062FB400F1A461700E068F8 /* MenuManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MenuManager.cpp; sourceTree = "<group>"; };
+		80664AFC0E457D64000965B3 /* Acknowledges.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Acknowledges.txt; sourceTree = "<group>"; };
+		80664B000E457D64000965B3 /* Guitar Xero RoadMap.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Guitar Xero RoadMap.txt"; sourceTree = "<group>"; };
+		80664B010E457D64000965B3 /* notas */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = notas; sourceTree = "<group>"; };
+		80664B020E457D64000965B3 /* TO-DOs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "TO-DOs"; sourceTree = "<group>"; };
+		8079A9550E02CD15009253D1 /* OGL_gfxPrimitives.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = OGL_gfxPrimitives.c; sourceTree = "<group>"; };
+		8079A9560E02CD15009253D1 /* OGL_gfxPrimitives.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OGL_gfxPrimitives.h; sourceTree = "<group>"; };
+		80A4FAC80F0D624F0017FD35 /* WidgetSlider.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = WidgetSlider.hpp; sourceTree = "<group>"; };
+		80A4FAC90F0D624F0017FD35 /* WidgetSlider.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = WidgetSlider.cpp; sourceTree = "<group>"; };
+		80B118590F00593800F2DC59 /* MenuDirElement.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MenuDirElement.cpp; sourceTree = "<group>"; };
+		80B1185A0F00593800F2DC59 /* MenuDirElement.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = MenuDirElement.hpp; sourceTree = "<group>"; };
+		80B118A50F02C09600F2DC59 /* debug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = debug.h; sourceTree = "<group>"; };
+		80BDF1990EFE504D00366C0D /* error.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = error.h; sourceTree = "<group>"; };
+		80BDF3AF0EFEF79E00366C0D /* Configuration.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Configuration.cpp; sourceTree = "<group>"; };
+		80BDF3B00EFEF79E00366C0D /* Configuration.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Configuration.hpp; sourceTree = "<group>"; };
+		80BDF3EC0EFEFB5A00366C0D /* GameConfig.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GameConfig.cpp; sourceTree = "<group>"; };
+		80BDF3ED0EFEFB5A00366C0D /* GameConfig.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = GameConfig.hpp; sourceTree = "<group>"; };
+		80BDF3FF0EFF7B4600366C0D /* MenuElement.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = MenuElement.hpp; sourceTree = "<group>"; };
+		80BDF4710F003C7D00366C0D /* SongSelector.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = SongSelector.hpp; sourceTree = "<group>"; };
+		80BDF4720F003C7D00366C0D /* SongSelector.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SongSelector.cpp; sourceTree = "<group>"; };
+		80D7A9820E1195B800A14F3E /* Songs */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Songs; sourceTree = "<group>"; };
+		80DFD5080F1FF25F00F91959 /* iPhone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iPhone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		80DFD50B0F1FF25F00F91959 /* iPhone-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iPhone-Info.plist"; sourceTree = "<group>"; };
+		80E07EB50F02D94F001F8600 /* MenuSong.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = MenuSong.hpp; sourceTree = "<group>"; };
+		80E07EB60F02D94F001F8600 /* MenuSong.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MenuSong.cpp; sourceTree = "<group>"; };
+		80E07EB80F02D95F001F8600 /* MenuAlbum.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = MenuAlbum.hpp; sourceTree = "<group>"; };
+		80E07EB90F02D95F001F8600 /* MenuAlbum.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MenuAlbum.cpp; sourceTree = "<group>"; };
+		80E0819A0F044755001F8600 /* SelectDificulty.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SelectDificulty.cpp; sourceTree = "<group>"; };
+		80E0819B0F044755001F8600 /* SelectDificulty.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = SelectDificulty.hpp; sourceTree = "<group>"; };
+		80E081D20F04570C001F8600 /* PlaySong.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PlaySong.cpp; sourceTree = "<group>"; };
+		80E081D30F04570C001F8600 /* PlaySong.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = PlaySong.hpp; sourceTree = "<group>"; };
+		80E082170F04CF76001F8600 /* WidgetScript.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = WidgetScript.cpp; sourceTree = "<group>"; };
+		80E082180F04CF76001F8600 /* WidgetScript.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = WidgetScript.hpp; sourceTree = "<group>"; };
+		80E082EC0F05A419001F8600 /* PauseWindow.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PauseWindow.cpp; sourceTree = "<group>"; };
+		80E082ED0F05A41A001F8600 /* PauseWindow.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = PauseWindow.hpp; sourceTree = "<group>"; };
+		80E0830C0F05A5FA001F8600 /* PauseMenu.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PauseMenu.cpp; sourceTree = "<group>"; };
+		80E0830D0F05A5FA001F8600 /* PauseMenu.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = PauseMenu.hpp; sourceTree = "<group>"; };
+		80E083AD0F05B505001F8600 /* VolumeSettings.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = VolumeSettings.cpp; sourceTree = "<group>"; };
+		80E083AE0F05B506001F8600 /* VolumeSettings.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = VolumeSettings.hpp; sourceTree = "<group>"; };
+		80E083B80F05B7D2001F8600 /* WidgetSplash.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = WidgetSplash.hpp; sourceTree = "<group>"; };
+		80E083B90F05B7D4001F8600 /* WidgetSplash.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = WidgetSplash.cpp; sourceTree = "<group>"; };
+		80E083BF0F06690E001F8600 /* WidgetLifebar.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = WidgetLifebar.cpp; sourceTree = "<group>"; };
+		80E083C00F066914001F8600 /* WidgetLifebar.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = WidgetLifebar.hpp; sourceTree = "<group>"; };
+		80EF9E110E9848EE0092A391 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		80F458980E015C7F0020387B /* Mods */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Mods; sourceTree = "<group>"; };
+		80F4E4070EFC2258004311F0 /* Video.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Video.cpp; sourceTree = "<group>"; };
+		80F4E4080EFC2258004311F0 /* Video.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Video.hpp; sourceTree = "<group>"; };
+		80F4E4400EFC2428004311F0 /* VideoSDL.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = VideoSDL.cpp; sourceTree = "<group>"; };
+		80F4E4410EFC2428004311F0 /* VideoSDL.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = VideoSDL.hpp; sourceTree = "<group>"; };
+		80F4E4420EFC2428004311F0 /* VideoSDL_Base.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = VideoSDL_Base.cpp; sourceTree = "<group>"; };
+		80F4E4430EFC2428004311F0 /* VideoSDL_Base.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = VideoSDL_Base.hpp; sourceTree = "<group>"; };
+		80F4E57F0EFC3B6D004311F0 /* WidgetAnimatedBackground.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = WidgetAnimatedBackground.cpp; sourceTree = "<group>"; };
+		80F4E5800EFC3B6D004311F0 /* WidgetAnimatedBackground.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = WidgetAnimatedBackground.hpp; sourceTree = "<group>"; };
+		80F4E7EB0EFCF453004311F0 /* MenuSubmenu.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = MenuSubmenu.hpp; sourceTree = "<group>"; };
+		80F4E7EC0EFCF453004311F0 /* MenuSubmenu.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MenuSubmenu.cpp; sourceTree = "<group>"; };
+		80F4E8B80EFD07AF004311F0 /* GX_Graphic.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GX_Graphic.cpp; sourceTree = "<group>"; };
+		80F4E8B90EFD07AF004311F0 /* GX_Graphic.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = GX_Graphic.hpp; sourceTree = "<group>"; };
+		80F4E8BA0EFD07AF004311F0 /* GX_GraphicSDL.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GX_GraphicSDL.cpp; sourceTree = "<group>"; };
+		80F4E8BB0EFD07AF004311F0 /* GX_GraphicSDL.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = GX_GraphicSDL.hpp; sourceTree = "<group>"; };
+		80F628610EFC15DC00F5DE09 /* WidgetBackground.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = WidgetBackground.cpp; sourceTree = "<group>"; };
+		80F628620EFC15DC00F5DE09 /* WidgetBackground.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = WidgetBackground.hpp; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* Guitar Xero.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Guitar Xero.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		80DFD5060F1FF25F00F91959 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				002F39FA09D0881F00EBEB88 /* SDL.framework in Frameworks */,
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				002F3C0109D093BD00EBEB88 /* OpenGL.framework in Frameworks */,
+				800407DD0DF2DE4800E39C61 /* SDL_image.framework in Frameworks */,
+				800407DE0DF2DE4800E39C61 /* SDL_mixer.framework in Frameworks */,
+				800407DF0DF2DE4800E39C61 /* SDL_ttf.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				800407DA0DF2DE4800E39C61 /* SDL_image.framework */,
+				800407DB0DF2DE4800E39C61 /* SDL_mixer.framework */,
+				800407DC0DF2DE4800E39C61 /* SDL_ttf.framework */,
+				002F39F909D0881F00EBEB88 /* SDL.framework */,
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+				002F3C0009D093BD00EBEB88 /* OpenGL.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* Guitar Xero */ = {
+			isa = PBXGroup;
+			children = (
+				80EF9DD80E98488B0092A391 /* SourceCode */,
+				800406850DF2DC9C00E39C61 /* Libs */,
+				800406F80DF2DD4D00E39C61 /* Resources */,
+				80664AFA0E457D64000965B3 /* Documentation */,
+				800407160DF2DD7400E39C61 /* XCode */,
+				80DFD5090F1FF25F00F91959 /* Products */,
+			);
+			name = "Guitar Xero";
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		800406850DF2DC9C00E39C61 /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				802D602A0E43F01D007B16E9 /* SDL_gfx-2.0.17 */,
+				8079A9540E02CCAE009253D1 /* OGL_gfx */,
+				8020A9310DF359E600288A1E /* OGL_S2T */,
+				800406860DF2DC9C00E39C61 /* MidiFile */,
+			);
+			name = Libs;
+			path = ../Libs;
+			sourceTree = SOURCE_ROOT;
+		};
+		800406860DF2DC9C00E39C61 /* MidiFile */ = {
+			isa = PBXGroup;
+			children = (
+				800406870DF2DC9C00E39C61 /* Array.cpp */,
+				800406880DF2DC9C00E39C61 /* Array.h */,
+				800406890DF2DC9C00E39C61 /* Collection.cpp */,
+				8004068A0DF2DC9C00E39C61 /* Collection.h */,
+				8004068B0DF2DC9C00E39C61 /* FileIO.cpp */,
+				8004068C0DF2DC9C00E39C61 /* FileIO.h */,
+				8004068D0DF2DC9C00E39C61 /* MidiFile.cpp */,
+				8004068E0DF2DC9C00E39C61 /* MidiFile.h */,
+				8004068F0DF2DC9C00E39C61 /* sigConfiguration.h */,
+			);
+			path = MidiFile;
+			sourceTree = "<group>";
+		};
+		800406F80DF2DD4D00E39C61 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8039E7130F07831900A78695 /* GuitarXero original.ini */,
+				800406F90DF2DD4D00E39C61 /* GuitarXero.ini */,
+				800407FC0DF2E00D00E39C61 /* Media */,
+				800407F70DF2DFFE00E39C61 /* Languages */,
+				80F458980E015C7F0020387B /* Mods */,
+				80D7A9820E1195B800A14F3E /* Songs */,
+				802721530E139BD1006B94DA /* Tutorial */,
+			);
+			name = Resources;
+			path = ../Resources;
+			sourceTree = SOURCE_ROOT;
+		};
+		800407160DF2DD7400E39C61 /* XCode */ = {
+			isa = PBXGroup;
+			children = (
+				80DFD50B0F1FF25F00F91959 /* iPhone-Info.plist */,
+				8D1107320486CEB800E47090 /* Guitar Xero.app */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				8004077C0DF2DD7500E39C61 /* Guitar Xero_Prefix.pch */,
+				8004077E0DF2DD7500E39C61 /* SDLMain.h */,
+				8004077F0DF2DD7500E39C61 /* SDLMain.m */,
+			);
+			name = XCode;
+			sourceTree = "<group>";
+		};
+		800B522A0EF86E4B00DDC8C0 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				800B53940EF9AAA800DDC8C0 /* Song */,
+				800B524F0EF8714000DDC8C0 /* Actions.cpp */,
+				800B52500EF8714000DDC8C0 /* Actions.hpp */,
+				800B52510EF8714000DDC8C0 /* common.cpp */,
+				800B52520EF8714000DDC8C0 /* common.hpp */,
+				800B52F70EF99BDC00DDC8C0 /* Parser */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		800B522B0EF86E4B00DDC8C0 /* Timer */ = {
+			isa = PBXGroup;
+			children = (
+				800B522C0EF86E4B00DDC8C0 /* Timer.cpp */,
+				800B522D0EF86E4B00DDC8C0 /* Timer.hpp */,
+			);
+			path = Timer;
+			sourceTree = "<group>";
+		};
+		800B52420EF86FC900DDC8C0 /* Interfaces */ = {
+			isa = PBXGroup;
+			children = (
+				800B532D0EF9A0ED00DDC8C0 /* Audio */,
+				800B52430EF86FC900DDC8C0 /* Input */,
+				80F4E4060EFC2258004311F0 /* Video */,
+			);
+			path = Interfaces;
+			sourceTree = "<group>";
+		};
+		800B52430EF86FC900DDC8C0 /* Input */ = {
+			isa = PBXGroup;
+			children = (
+				800B52440EF86FC900DDC8C0 /* Input.cpp */,
+				800B52450EF86FC900DDC8C0 /* Input.hpp */,
+				800B52460EF86FC900DDC8C0 /* InputSDL */,
+			);
+			path = Input;
+			sourceTree = "<group>";
+		};
+		800B52460EF86FC900DDC8C0 /* InputSDL */ = {
+			isa = PBXGroup;
+			children = (
+				800B52470EF86FC900DDC8C0 /* InputSDL.cpp */,
+				800B52480EF86FC900DDC8C0 /* InputSDL.hpp */,
+			);
+			path = InputSDL;
+			sourceTree = "<group>";
+		};
+		800B525A0EF8E22C00DDC8C0 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				800B53070EF99FF800DDC8C0 /* StartingMenu.cpp */,
+				800B53080EF99FF800DDC8C0 /* StartingMenu.hpp */,
+				80E0819D0F04475C001F8600 /* SongSelector */,
+				8039E8D80F07FAF800A78695 /* SongEditor.cpp */,
+				8039E8D90F07FAF800A78695 /* SongEditor.hpp */,
+				80BDF3EF0EFEFB6800366C0D /* Configuration */,
+				80E0830C0F05A5FA001F8600 /* PauseMenu.cpp */,
+				80E0830D0F05A5FA001F8600 /* PauseMenu.hpp */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		800B52AB0EF9967900DDC8C0 /* List */ = {
+			isa = PBXGroup;
+			children = (
+				800B52AC0EF9967900DDC8C0 /* List.cpp */,
+				800B52AD0EF9967900DDC8C0 /* List.hpp */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
+		800B52F70EF99BDC00DDC8C0 /* Parser */ = {
+			isa = PBXGroup;
+			children = (
+				800B52F80EF99BDC00DDC8C0 /* Parser.cpp */,
+				800B52F90EF99BDC00DDC8C0 /* Parser.hpp */,
+				800B52FA0EF99BDC00DDC8C0 /* ParserOptions.cpp */,
+				800B52FB0EF99BDC00DDC8C0 /* ParserOptions.hpp */,
+				800B52FC0EF99BDC00DDC8C0 /* ParserScript.cpp */,
+				800B52FD0EF99BDC00DDC8C0 /* ParserScript.hpp */,
+			);
+			path = Parser;
+			sourceTree = "<group>";
+		};
+		800B530A0EF9A00700DDC8C0 /* GX_Lib */ = {
+			isa = PBXGroup;
+			children = (
+				80F629640EFC1A9C00F5DE09 /* GX_Graphic */,
+				800B52AB0EF9967900DDC8C0 /* List */,
+				800B530B0EF9A00700DDC8C0 /* MainLoop */,
+				800B522B0EF86E4B00DDC8C0 /* Timer */,
+				800B53110EF9A00700DDC8C0 /* Widgets */,
+				80BDF1990EFE504D00366C0D /* error.h */,
+				80B118A50F02C09600F2DC59 /* debug.h */,
+				8007D6760F0C18D7001C55F6 /* GX_Common.hpp */,
+				8007D6770F0C18D7001C55F6 /* GX_Common.cpp */,
+			);
+			path = GX_Lib;
+			sourceTree = "<group>";
+		};
+		800B530B0EF9A00700DDC8C0 /* MainLoop */ = {
+			isa = PBXGroup;
+			children = (
+				800B530C0EF9A00700DDC8C0 /* MainLoop.cpp */,
+				800B530D0EF9A00700DDC8C0 /* MainLoop.hpp */,
+			);
+			path = MainLoop;
+			sourceTree = "<group>";
+		};
+		800B530E0EF9A00700DDC8C0 /* MenuData */ = {
+			isa = PBXGroup;
+			children = (
+				8062FB3E0F1A460A00E068F8 /* MenuData.cpp */,
+				800B53100EF9A00700DDC8C0 /* MenuData.hpp */,
+				8039E8750F07F72F00A78695 /* TextMenu.hpp */,
+				8039E8760F07F81B00A78695 /* TextMenu.cpp */,
+			);
+			path = MenuData;
+			sourceTree = "<group>";
+		};
+		800B53110EF9A00700DDC8C0 /* Widgets */ = {
+			isa = PBXGroup;
+			children = (
+				800B53120EF9A00700DDC8C0 /* Widget.hpp */,
+				8007D9460F0D3FFD001C55F6 /* Widget.cpp */,
+				80F4E57E0EFC3B6D004311F0 /* AnimatedBackground */,
+				80F628600EFC15DC00F5DE09 /* Background */,
+				8039EAC20F08B8D100A78695 /* Boolean */,
+				801D713D0EFD7F4900ED83E7 /* Label */,
+				800B55A40EFA6DCA00DDC8C0 /* Menu */,
+				8039E9B00F081E1F00A78695 /* MenuContainer */,
+				8039EC530F09747200A78695 /* Multiple */,
+				80A4FAC70F0D623C0017FD35 /* Slider */,
+				80E083B70F05B7BF001F8600 /* Splash */,
+				8062F4A20F156A4100E068F8 /* Textbox */,
+				800B53130EF9A00700DDC8C0 /* Window */,
+			);
+			path = Widgets;
+			sourceTree = "<group>";
+		};
+		800B53130EF9A00700DDC8C0 /* Window */ = {
+			isa = PBXGroup;
+			children = (
+				800B53140EF9A00700DDC8C0 /* WidgetWindow.cpp */,
+				800B53150EF9A00700DDC8C0 /* WidgetWindow.hpp */,
+			);
+			path = Window;
+			sourceTree = "<group>";
+		};
+		800B53190EF9A06E00DDC8C0 /* Windows */ = {
+			isa = PBXGroup;
+			children = (
+				800B531A0EF9A06E00DDC8C0 /* MainMenu */,
+				80E081D10F04570C001F8600 /* PlaySong */,
+				8039EC0E0F096B3000A78695 /* TryKeys */,
+				8039EC4D0F096EA500A78695 /* SongFinished */,
+			);
+			path = Windows;
+			sourceTree = "<group>";
+		};
+		800B531A0EF9A06E00DDC8C0 /* MainMenu */ = {
+			isa = PBXGroup;
+			children = (
+				800B531B0EF9A06E00DDC8C0 /* MainMenu.cpp */,
+				800B531C0EF9A06E00DDC8C0 /* MainMenu.hpp */,
+			);
+			path = MainMenu;
+			sourceTree = "<group>";
+		};
+		800B532D0EF9A0ED00DDC8C0 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				800B532E0EF9A0ED00DDC8C0 /* Audio.cpp */,
+				800B532F0EF9A0ED00DDC8C0 /* Audio.hpp */,
+				800B53300EF9A0ED00DDC8C0 /* AudioSDL */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+		800B53300EF9A0ED00DDC8C0 /* AudioSDL */ = {
+			isa = PBXGroup;
+			children = (
+				800B53310EF9A0ED00DDC8C0 /* AudioSDL.cpp */,
+				800B53320EF9A0ED00DDC8C0 /* AudioSDL.hpp */,
+			);
+			path = AudioSDL;
+			sourceTree = "<group>";
+		};
+		800B53940EF9AAA800DDC8C0 /* Song */ = {
+			isa = PBXGroup;
+			children = (
+				800B53950EF9AAA800DDC8C0 /* Note.hpp */,
+				8062F7480F16A71800E068F8 /* Note.cpp */,
+				800B53960EF9AAA800DDC8C0 /* Song.cpp */,
+				800B53970EF9AAA900DDC8C0 /* Song.hpp */,
+			);
+			path = Song;
+			sourceTree = "<group>";
+		};
+		800B55650EFA6DB200DDC8C0 /* MenuManagers */ = {
+			isa = PBXGroup;
+			children = (
+				800B55660EFA6DB200DDC8C0 /* DirMenuManager */,
+				800B556C0EFA6DB300DDC8C0 /* TextMenuManager */,
+				800B556D0EFA6DB300DDC8C0 /* MenuElements */,
+			);
+			path = MenuManagers;
+			sourceTree = "<group>";
+		};
+		800B55660EFA6DB200DDC8C0 /* DirMenuManager */ = {
+			isa = PBXGroup;
+			children = (
+				800B556A0EFA6DB200DDC8C0 /* DirMenuManager.cpp */,
+				800B556B0EFA6DB300DDC8C0 /* DirMenuManager.hpp */,
+			);
+			path = DirMenuManager;
+			sourceTree = "<group>";
+		};
+		800B556C0EFA6DB300DDC8C0 /* TextMenuManager */ = {
+			isa = PBXGroup;
+			children = (
+				800B55700EFA6DB300DDC8C0 /* TextMenuManager.cpp */,
+				800B55710EFA6DB300DDC8C0 /* TextMenuManager.hpp */,
+			);
+			path = TextMenuManager;
+			sourceTree = "<group>";
+		};
+		800B556D0EFA6DB300DDC8C0 /* MenuElements */ = {
+			isa = PBXGroup;
+			children = (
+				8062F6C60F156B0200E068F8 /* MenuKey.cpp */,
+				8062F6C70F156B0200E068F8 /* MenuKey.hpp */,
+				8039E9DF0F0823E300A78695 /* MenuDirElement */,
+				80F4E7EB0EFCF453004311F0 /* MenuSubmenu.hpp */,
+				80F4E7EC0EFCF453004311F0 /* MenuSubmenu.cpp */,
+			);
+			path = MenuElements;
+			sourceTree = "<group>";
+		};
+		800B55A40EFA6DCA00DDC8C0 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				800B55A80EFA6DCA00DDC8C0 /* WidgetMenu.cpp */,
+				800B55A90EFA6DCA00DDC8C0 /* WidgetMenu.hpp */,
+				800B530E0EF9A00700DDC8C0 /* MenuData */,
+				800B55A50EFA6DCA00DDC8C0 /* MenuManager */,
+				80BDF3FF0EFF7B4600366C0D /* MenuElement.hpp */,
+				8007D7DF0F0D343E001C55F6 /* MenuEntry.hpp */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		800B55A50EFA6DCA00DDC8C0 /* MenuManager */ = {
+			isa = PBXGroup;
+			children = (
+				8062FB400F1A461700E068F8 /* MenuManager.cpp */,
+				800B55A70EFA6DCA00DDC8C0 /* MenuManager.hpp */,
+			);
+			path = MenuManager;
+			sourceTree = "<group>";
+		};
+		801D713D0EFD7F4900ED83E7 /* Label */ = {
+			isa = PBXGroup;
+			children = (
+				801D713E0EFD7F7B00ED83E7 /* WidgetLabel.hpp */,
+				801D713F0EFD7F7B00ED83E7 /* WidgetLabel.cpp */,
+			);
+			path = Label;
+			sourceTree = "<group>";
+		};
+		8020A9310DF359E600288A1E /* OGL_S2T */ = {
+			isa = PBXGroup;
+			children = (
+				8020A9320DF359E600288A1E /* OGL_S2T.c */,
+				8020A9330DF359E600288A1E /* OGL_S2T.h */,
+			);
+			name = OGL_S2T;
+			path = /Users/piranna/Proyectos/Libs/OGL_S2T;
+			sourceTree = "<absolute>";
+		};
+		802D602A0E43F01D007B16E9 /* SDL_gfx-2.0.17 */ = {
+			isa = PBXGroup;
+			children = (
+				802D602B0E43F01D007B16E9 /* SDL_framerate.c */,
+				802D602C0E43F01D007B16E9 /* SDL_framerate.h */,
+				802D602D0E43F01D007B16E9 /* SDL_gfxBlitFunc.c */,
+				802D602E0E43F01D007B16E9 /* SDL_gfxBlitFunc.h */,
+				802D602F0E43F01D007B16E9 /* SDL_gfxPrimitives.c */,
+				802D60300E43F01D007B16E9 /* SDL_gfxPrimitives.h */,
+				802D60310E43F01D007B16E9 /* SDL_gfxPrimitives_font.h */,
+				802D60320E43F01D007B16E9 /* SDL_imageFilter.c */,
+				802D60330E43F01D007B16E9 /* SDL_imageFilter.h */,
+				802D60340E43F01D007B16E9 /* SDL_rotozoom.c */,
+				802D60350E43F01D007B16E9 /* SDL_rotozoom.h */,
+			);
+			path = "SDL_gfx-2.0.17";
+			sourceTree = "<group>";
+		};
+		8039E6360F069D7B00A78695 /* WidgetFretboard */ = {
+			isa = PBXGroup;
+			children = (
+				8039E6370F069D7B00A78695 /* WidgetFretboard.cpp */,
+				8039E6380F069D7B00A78695 /* WidgetFretboard.hpp */,
+			);
+			path = WidgetFretboard;
+			sourceTree = "<group>";
+		};
+		8039E9B00F081E1F00A78695 /* MenuContainer */ = {
+			isa = PBXGroup;
+			children = (
+				8039E9B10F081E3000A78695 /* MenuContainer.hpp */,
+				8039E9B20F081E3000A78695 /* MenuContainer.cpp */,
+			);
+			path = MenuContainer;
+			sourceTree = "<group>";
+		};
+		8039E9DF0F0823E300A78695 /* MenuDirElement */ = {
+			isa = PBXGroup;
+			children = (
+				80B118590F00593800F2DC59 /* MenuDirElement.cpp */,
+				80B1185A0F00593800F2DC59 /* MenuDirElement.hpp */,
+				80E07EB50F02D94F001F8600 /* MenuSong.hpp */,
+				80E07EB60F02D94F001F8600 /* MenuSong.cpp */,
+				80E07EB80F02D95F001F8600 /* MenuAlbum.hpp */,
+				80E07EB90F02D95F001F8600 /* MenuAlbum.cpp */,
+			);
+			name = MenuDirElement;
+			sourceTree = "<group>";
+		};
+		8039EAC20F08B8D100A78695 /* Boolean */ = {
+			isa = PBXGroup;
+			children = (
+				8039EAC30F08B8D100A78695 /* WidgetBoolean.cpp */,
+				8039EAC40F08B8D100A78695 /* WidgetBoolean.hpp */,
+			);
+			path = Boolean;
+			sourceTree = "<group>";
+		};
+		8039EB190F08BE2C00A78695 /* GameConfig */ = {
+			isa = PBXGroup;
+			children = (
+				80BDF3EC0EFEFB5A00366C0D /* GameConfig.cpp */,
+				80BDF3ED0EFEFB5A00366C0D /* GameConfig.hpp */,
+				8039EB160F08BE2700A78695 /* ModSettings.cpp */,
+				8039EB170F08BE2700A78695 /* ModSettings.hpp */,
+			);
+			name = GameConfig;
+			sourceTree = "<group>";
+		};
+		8039EC0E0F096B3000A78695 /* TryKeys */ = {
+			isa = PBXGroup;
+			children = (
+				8039EC0F0F096B3100A78695 /* TryKeys.cpp */,
+				8039EC100F096B3100A78695 /* TryKeys.hpp */,
+			);
+			path = TryKeys;
+			sourceTree = "<group>";
+		};
+		8039EC4D0F096EA500A78695 /* SongFinished */ = {
+			isa = PBXGroup;
+			children = (
+				8039EC4E0F096EA500A78695 /* SongFinished.cpp */,
+				8039EC4F0F096EA500A78695 /* SongFinished.hpp */,
+			);
+			path = SongFinished;
+			sourceTree = "<group>";
+		};
+		8039EC530F09747200A78695 /* Multiple */ = {
+			isa = PBXGroup;
+			children = (
+				8039EC540F09748300A78695 /* WidgetMultiple.hpp */,
+				8039EC550F09748300A78695 /* WidgetMultiple.cpp */,
+			);
+			path = Multiple;
+			sourceTree = "<group>";
+		};
+		8062F4A20F156A4100E068F8 /* Textbox */ = {
+			isa = PBXGroup;
+			children = (
+				8062F4A30F156A4100E068F8 /* WidgetTextbox.cpp */,
+				8062F4A40F156A4100E068F8 /* WidgetTextbox.hpp */,
+			);
+			path = Textbox;
+			sourceTree = "<group>";
+		};
+		8062F6A10F156A9900E068F8 /* WidgetBanner */ = {
+			isa = PBXGroup;
+			children = (
+				8062F6A20F156A9900E068F8 /* WidgetBanner.cpp */,
+				8062F6A30F156A9900E068F8 /* WidgetBanner.hpp */,
+			);
+			path = WidgetBanner;
+			sourceTree = "<group>";
+		};
+		8062F6A40F156A9900E068F8 /* WidgetExactitude */ = {
+			isa = PBXGroup;
+			children = (
+				8062F6A50F156A9900E068F8 /* WidgetExactitude.cpp */,
+				8062F6A60F156A9900E068F8 /* WidgetExactitude.hpp */,
+			);
+			path = WidgetExactitude;
+			sourceTree = "<group>";
+		};
+		8062F6A70F156A9900E068F8 /* WidgetKeynotes */ = {
+			isa = PBXGroup;
+			children = (
+				8062F6A80F156A9900E068F8 /* WidgetKeynotes.cpp */,
+				8062F6A90F156A9900E068F8 /* WidgetKeynotes.hpp */,
+			);
+			path = WidgetKeynotes;
+			sourceTree = "<group>";
+		};
+		80664AFA0E457D64000965B3 /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+				80664AFC0E457D64000965B3 /* Acknowledges.txt */,
+				80664B000E457D64000965B3 /* Guitar Xero RoadMap.txt */,
+				80664B010E457D64000965B3 /* notas */,
+				80664B020E457D64000965B3 /* TO-DOs */,
+			);
+			name = Documentation;
+			path = ../Documentation;
+			sourceTree = SOURCE_ROOT;
+		};
+		8079A9540E02CCAE009253D1 /* OGL_gfx */ = {
+			isa = PBXGroup;
+			children = (
+				8079A9550E02CD15009253D1 /* OGL_gfxPrimitives.c */,
+				8079A9560E02CD15009253D1 /* OGL_gfxPrimitives.h */,
+			);
+			name = OGL_gfx;
+			path = /Users/piranna/Proyectos/Libs/OGL_gfx;
+			sourceTree = "<absolute>";
+		};
+		80A4FAC70F0D623C0017FD35 /* Slider */ = {
+			isa = PBXGroup;
+			children = (
+				80A4FAC80F0D624F0017FD35 /* WidgetSlider.hpp */,
+				80A4FAC90F0D624F0017FD35 /* WidgetSlider.cpp */,
+			);
+			path = Slider;
+			sourceTree = "<group>";
+		};
+		80BDF3EF0EFEFB6800366C0D /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				80BDF3AF0EFEF79E00366C0D /* Configuration.cpp */,
+				80BDF3B00EFEF79E00366C0D /* Configuration.hpp */,
+				8039EB190F08BE2C00A78695 /* GameConfig */,
+				8039EB3D0F08C11500A78695 /* ControlConfig.cpp */,
+				8039EB3E0F08C11500A78695 /* ControlConfig.hpp */,
+				8039EB450F08C28E00A78695 /* VideoConfig.cpp */,
+				8039EB460F08C28E00A78695 /* VideoConfig.hpp */,
+				80E083AC0F05B4F2001F8600 /* SoundConfig */,
+			);
+			name = Configuration;
+			sourceTree = "<group>";
+		};
+		80DFD5090F1FF25F00F91959 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				80DFD5080F1FF25F00F91959 /* iPhone.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		80E0819D0F04475C001F8600 /* SongSelector */ = {
+			isa = PBXGroup;
+			children = (
+				80BDF4710F003C7D00366C0D /* SongSelector.hpp */,
+				80BDF4720F003C7D00366C0D /* SongSelector.cpp */,
+				80E0819A0F044755001F8600 /* SelectDificulty.cpp */,
+				80E0819B0F044755001F8600 /* SelectDificulty.hpp */,
+				8039EB530F0948DA00A78695 /* NoSongs.cpp */,
+				8039EB540F0948DA00A78695 /* NoSongs.hpp */,
+			);
+			name = SongSelector;
+			sourceTree = "<group>";
+		};
+		80E081D10F04570C001F8600 /* PlaySong */ = {
+			isa = PBXGroup;
+			children = (
+				80E081D20F04570C001F8600 /* PlaySong.cpp */,
+				80E081D30F04570C001F8600 /* PlaySong.hpp */,
+				80E082EB0F05A419001F8600 /* PauseWindow */,
+			);
+			path = PlaySong;
+			sourceTree = "<group>";
+		};
+		80E082150F04CF76001F8600 /* Widgets */ = {
+			isa = PBXGroup;
+			children = (
+				8062F6A10F156A9900E068F8 /* WidgetBanner */,
+				8062F6A40F156A9900E068F8 /* WidgetExactitude */,
+				8039E6360F069D7B00A78695 /* WidgetFretboard */,
+				8062F6A70F156A9900E068F8 /* WidgetKeynotes */,
+				80E083BE0F06690E001F8600 /* WidgetLifebar */,
+				80E082160F04CF76001F8600 /* WidgetScript */,
+			);
+			path = Widgets;
+			sourceTree = "<group>";
+		};
+		80E082160F04CF76001F8600 /* WidgetScript */ = {
+			isa = PBXGroup;
+			children = (
+				80E082170F04CF76001F8600 /* WidgetScript.cpp */,
+				80E082180F04CF76001F8600 /* WidgetScript.hpp */,
+			);
+			path = WidgetScript;
+			sourceTree = "<group>";
+		};
+		80E082EB0F05A419001F8600 /* PauseWindow */ = {
+			isa = PBXGroup;
+			children = (
+				80E082EC0F05A419001F8600 /* PauseWindow.cpp */,
+				80E082ED0F05A41A001F8600 /* PauseWindow.hpp */,
+			);
+			name = PauseWindow;
+			path = ../PauseWindow;
+			sourceTree = "<group>";
+		};
+		80E083AC0F05B4F2001F8600 /* SoundConfig */ = {
+			isa = PBXGroup;
+			children = (
+				8039E8F30F07FC0700A78695 /* SoundConfig.cpp */,
+				8039E8F40F07FC0700A78695 /* SoundConfig.hpp */,
+				80E083AD0F05B505001F8600 /* VolumeSettings.cpp */,
+				80E083AE0F05B506001F8600 /* VolumeSettings.hpp */,
+			);
+			name = SoundConfig;
+			sourceTree = "<group>";
+		};
+		80E083B70F05B7BF001F8600 /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				80E083B80F05B7D2001F8600 /* WidgetSplash.hpp */,
+				80E083B90F05B7D4001F8600 /* WidgetSplash.cpp */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		80E083BE0F06690E001F8600 /* WidgetLifebar */ = {
+			isa = PBXGroup;
+			children = (
+				80E083BF0F06690E001F8600 /* WidgetLifebar.cpp */,
+				80E083C00F066914001F8600 /* WidgetLifebar.hpp */,
+			);
+			path = WidgetLifebar;
+			sourceTree = "<group>";
+		};
+		80EF9DD80E98488B0092A391 /* SourceCode */ = {
+			isa = PBXGroup;
+			children = (
+				80EF9E110E9848EE0092A391 /* main.cpp */,
+				800B53190EF9A06E00DDC8C0 /* Windows */,
+				800B525A0EF8E22C00DDC8C0 /* Menu */,
+				800B55650EFA6DB200DDC8C0 /* MenuManagers */,
+				800B52420EF86FC900DDC8C0 /* Interfaces */,
+				80E082150F04CF76001F8600 /* Widgets */,
+				800B530A0EF9A00700DDC8C0 /* GX_Lib */,
+				800B522A0EF86E4B00DDC8C0 /* Common */,
+				800B518A0EF86CE600DDC8C0 /* compileConfiguration.h */,
+				800B52EB0EF99B9F00DDC8C0 /* constants.hpp */,
+				800B52EC0EF99B9F00DDC8C0 /* defaults.h */,
+			);
+			name = SourceCode;
+			path = ../SourceCode;
+			sourceTree = SOURCE_ROOT;
+		};
+		80F4E4060EFC2258004311F0 /* Video */ = {
+			isa = PBXGroup;
+			children = (
+				80F4E4070EFC2258004311F0 /* Video.cpp */,
+				80F4E4080EFC2258004311F0 /* Video.hpp */,
+				80F4E43E0EFC2428004311F0 /* VideoSDL_Base */,
+			);
+			path = Video;
+			sourceTree = "<group>";
+		};
+		80F4E43E0EFC2428004311F0 /* VideoSDL_Base */ = {
+			isa = PBXGroup;
+			children = (
+				80F4E4420EFC2428004311F0 /* VideoSDL_Base.cpp */,
+				80F4E4430EFC2428004311F0 /* VideoSDL_Base.hpp */,
+				80F4E43F0EFC2428004311F0 /* VideoSDL */,
+			);
+			path = VideoSDL_Base;
+			sourceTree = "<group>";
+		};
+		80F4E43F0EFC2428004311F0 /* VideoSDL */ = {
+			isa = PBXGroup;
+			children = (
+				80F4E4400EFC2428004311F0 /* VideoSDL.cpp */,
+				80F4E4410EFC2428004311F0 /* VideoSDL.hpp */,
+			);
+			path = VideoSDL;
+			sourceTree = "<group>";
+		};
+		80F4E57E0EFC3B6D004311F0 /* AnimatedBackground */ = {
+			isa = PBXGroup;
+			children = (
+				80F4E57F0EFC3B6D004311F0 /* WidgetAnimatedBackground.cpp */,
+				80F4E5800EFC3B6D004311F0 /* WidgetAnimatedBackground.hpp */,
+			);
+			path = AnimatedBackground;
+			sourceTree = "<group>";
+		};
+		80F628600EFC15DC00F5DE09 /* Background */ = {
+			isa = PBXGroup;
+			children = (
+				80F628610EFC15DC00F5DE09 /* WidgetBackground.cpp */,
+				80F628620EFC15DC00F5DE09 /* WidgetBackground.hpp */,
+			);
+			path = Background;
+			sourceTree = "<group>";
+		};
+		80F629640EFC1A9C00F5DE09 /* GX_Graphic */ = {
+			isa = PBXGroup;
+			children = (
+				80F4E8B80EFD07AF004311F0 /* GX_Graphic.cpp */,
+				80F4E8B90EFD07AF004311F0 /* GX_Graphic.hpp */,
+				80F4E8BA0EFD07AF004311F0 /* GX_GraphicSDL.cpp */,
+				80F4E8BB0EFD07AF004311F0 /* GX_GraphicSDL.hpp */,
+			);
+			path = GX_Graphic;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		80DFD5070F1FF25F00F91959 /* iPhoneOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80DFD50E0F1FF26000F91959 /* Build configuration list for PBXNativeTarget "iPhoneOS" */;
+			buildPhases = (
+				80DFD5040F1FF25F00F91959 /* Resources */,
+				80DFD5050F1FF25F00F91959 /* Sources */,
+				80DFD5060F1FF25F00F91959 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iPhoneOS;
+			productName = iPhone;
+			productReference = 80DFD5080F1FF25F00F91959 /* iPhone.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8D1107260486CEB800E47090 /* MacOS X */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "MacOS X" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+				002F39FD09D0883400EBEB88 /* Copy Frameworks into .app bundle */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MacOS X";
+			productInstallPath = "$(HOME)/Applications";
+			productName = "Guitar Xero";
+			productReference = 8D1107320486CEB800E47090 /* Guitar Xero.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Guitar Xero" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* Guitar Xero */;
+			productRefGroup = 80DFD5090F1FF25F00F91959 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* MacOS X */,
+				80DFD5070F1FF25F00F91959 /* iPhoneOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		80DFD5040F1FF25F00F91959 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				800407FB0DF2DFFE00E39C61 /* Languages in Resources */,
+				800408080DF2E00D00E39C61 /* Media in Resources */,
+				80F4589A0E015C7F0020387B /* Mods in Resources */,
+				80D7A9840E1195B800A14F3E /* Songs in Resources */,
+				8027215D0E139BD1006B94DA /* Tutorial in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		80DFD5050F1FF25F00F91959 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				800406C50DF2DC9C00E39C61 /* Array.cpp in Sources */,
+				800406C60DF2DC9C00E39C61 /* Collection.cpp in Sources */,
+				800406C70DF2DC9C00E39C61 /* FileIO.cpp in Sources */,
+				800406C80DF2DC9C00E39C61 /* MidiFile.cpp in Sources */,
+				800407D70DF2DD7500E39C61 /* SDLMain.m in Sources */,
+				8020A9340DF359E600288A1E /* OGL_S2T.c in Sources */,
+				802D60360E43F01D007B16E9 /* SDL_framerate.c in Sources */,
+				802D60370E43F01D007B16E9 /* SDL_gfxBlitFunc.c in Sources */,
+				802D60380E43F01D007B16E9 /* SDL_gfxPrimitives.c in Sources */,
+				802D60390E43F01D007B16E9 /* SDL_imageFilter.c in Sources */,
+				802D603A0E43F01D007B16E9 /* SDL_rotozoom.c in Sources */,
+				80EF9E3C0E9848EE0092A391 /* main.cpp in Sources */,
+				800B522E0EF86E4B00DDC8C0 /* Timer.cpp in Sources */,
+				800B52490EF86FC900DDC8C0 /* Input.cpp in Sources */,
+				800B524A0EF86FC900DDC8C0 /* InputSDL.cpp in Sources */,
+				800B52530EF8714000DDC8C0 /* Actions.cpp in Sources */,
+				800B52540EF8714000DDC8C0 /* common.cpp in Sources */,
+				800B52AE0EF9967900DDC8C0 /* List.cpp in Sources */,
+				800B52FE0EF99BDC00DDC8C0 /* Parser.cpp in Sources */,
+				800B52FF0EF99BDC00DDC8C0 /* ParserOptions.cpp in Sources */,
+				800B53000EF99BDC00DDC8C0 /* ParserScript.cpp in Sources */,
+				800B53090EF99FF800DDC8C0 /* StartingMenu.cpp in Sources */,
+				800B53160EF9A00700DDC8C0 /* MainLoop.cpp in Sources */,
+				800B53180EF9A00700DDC8C0 /* WidgetWindow.cpp in Sources */,
+				800B531D0EF9A06E00DDC8C0 /* MainMenu.cpp in Sources */,
+				800B53330EF9A0ED00DDC8C0 /* Audio.cpp in Sources */,
+				800B53340EF9A0ED00DDC8C0 /* AudioSDL.cpp in Sources */,
+				800B53980EF9AAA900DDC8C0 /* Song.cpp in Sources */,
+				80F628630EFC15DC00F5DE09 /* WidgetBackground.cpp in Sources */,
+				80F4E4090EFC2258004311F0 /* Video.cpp in Sources */,
+				80F4E4440EFC2428004311F0 /* VideoSDL.cpp in Sources */,
+				80F4E4450EFC2428004311F0 /* VideoSDL_Base.cpp in Sources */,
+				80F4E5810EFC3B6D004311F0 /* WidgetAnimatedBackground.cpp in Sources */,
+				80F4E7660EFC49A6004311F0 /* WidgetMenu.cpp in Sources */,
+				80F4E7900EFC4C17004311F0 /* TextMenuManager.cpp in Sources */,
+				80F4E7ED0EFCF453004311F0 /* MenuSubmenu.cpp in Sources */,
+				80F4E8C10EFD07AF004311F0 /* GX_Graphic.cpp in Sources */,
+				80F4E8C20EFD07AF004311F0 /* GX_GraphicSDL.cpp in Sources */,
+				801D71400EFD7F7B00ED83E7 /* WidgetLabel.cpp in Sources */,
+				80BDF3B10EFEF79E00366C0D /* Configuration.cpp in Sources */,
+				80BDF3EE0EFEFB5A00366C0D /* GameConfig.cpp in Sources */,
+				80BDF46C0F003B7F00366C0D /* DirMenuManager.cpp in Sources */,
+				80BDF4730F003C7D00366C0D /* SongSelector.cpp in Sources */,
+				80B1185B0F00593800F2DC59 /* MenuDirElement.cpp in Sources */,
+				80E07EB70F02D94F001F8600 /* MenuSong.cpp in Sources */,
+				80E07EBA0F02D95F001F8600 /* MenuAlbum.cpp in Sources */,
+				80E0819C0F044755001F8600 /* SelectDificulty.cpp in Sources */,
+				80E081D40F04570C001F8600 /* PlaySong.cpp in Sources */,
+				80E082190F04CF76001F8600 /* WidgetScript.cpp in Sources */,
+				80E082EE0F05A41A001F8600 /* PauseWindow.cpp in Sources */,
+				80E0830E0F05A5FA001F8600 /* PauseMenu.cpp in Sources */,
+				80E083AF0F05B506001F8600 /* VolumeSettings.cpp in Sources */,
+				80E083BA0F05B7D6001F8600 /* WidgetSplash.cpp in Sources */,
+				80E083C10F066917001F8600 /* WidgetLifebar.cpp in Sources */,
+				8039E6390F069D7B00A78695 /* WidgetFretboard.cpp in Sources */,
+				8039E8770F07F81B00A78695 /* TextMenu.cpp in Sources */,
+				8039E8DA0F07FAF800A78695 /* SongEditor.cpp in Sources */,
+				8039E8F50F07FC0700A78695 /* SoundConfig.cpp in Sources */,
+				8039E9B30F081E3000A78695 /* MenuContainer.cpp in Sources */,
+				8039EAC50F08B8D100A78695 /* WidgetBoolean.cpp in Sources */,
+				8039EB180F08BE2700A78695 /* ModSettings.cpp in Sources */,
+				8039EB3F0F08C11500A78695 /* ControlConfig.cpp in Sources */,
+				8039EB470F08C28E00A78695 /* VideoConfig.cpp in Sources */,
+				8039EB550F0948DA00A78695 /* NoSongs.cpp in Sources */,
+				8039EC110F096B3100A78695 /* TryKeys.cpp in Sources */,
+				8039EC500F096EA500A78695 /* SongFinished.cpp in Sources */,
+				8039EC560F09748300A78695 /* WidgetMultiple.cpp in Sources */,
+				8007D6780F0C18D7001C55F6 /* GX_Common.cpp in Sources */,
+				8007D9470F0D3FFD001C55F6 /* Widget.cpp in Sources */,
+				80A4FACA0F0D624F0017FD35 /* WidgetSlider.cpp in Sources */,
+				8062F4A50F156A4100E068F8 /* WidgetTextbox.cpp in Sources */,
+				8062F6AA0F156A9900E068F8 /* WidgetBanner.cpp in Sources */,
+				8062F6AB0F156A9900E068F8 /* WidgetExactitude.cpp in Sources */,
+				8062F6AC0F156A9900E068F8 /* WidgetKeynotes.cpp in Sources */,
+				8062F6C80F156B0200E068F8 /* MenuKey.cpp in Sources */,
+				8062F7490F16A71800E068F8 /* Note.cpp in Sources */,
+				8062FB3F0F1A460A00E068F8 /* MenuData.cpp in Sources */,
+				8062FB410F1A461700E068F8 /* MenuManager.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		80DFD50C0F1FF26000F91959 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/UIKit.framework/Headers/UIKit.h";
+				INFOPLIST_FILE = "iPhone-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				IPHONEOS_DEPLOYMENT_TARGET = 2.2;
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					UIKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = iPhone;
+				SDKROOT = iphoneos2.2;
+			};
+			name = Debug;
+		};
+		80DFD50D0F1FF26000F91959 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/UIKit.framework/Headers/UIKit.h";
+				INFOPLIST_FILE = "iPhone-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					UIKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = iPhone;
+				SDKROOT = iphoneos2.2;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = "Guitar Xero";
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = "Guitar Xero";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(HOME)/Library/Frameworks",
+					/Library/Frameworks,
+					"$(FRAMEWORK_SEARCH_PATHS)",
+				);
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(HOME)/Library/Frameworks/SDL.framework/Headers",
+					/Library/Frameworks/SDL.framework/Headers,
+					"$(HEADER_SEARCH_PATHS)",
+				);
+				OTHER_CFLAGS = "-DDEBUG";
+				PREBINDING = NO;
+				SDKROOT = macosx10.4;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(HOME)/Library/Frameworks",
+					/Library/Frameworks,
+					"$(FRAMEWORK_SEARCH_PATHS)",
+				);
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(HOME)/Library/Frameworks/SDL.framework/Headers",
+					/Library/Frameworks/SDL.framework/Headers,
+					"$(HEADER_SEARCH_PATHS)",
+				);
+				PREBINDING = NO;
+				SDKROOT = macosx10.4;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		80DFD50E0F1FF26000F91959 /* Build configuration list for PBXNativeTarget "iPhoneOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80DFD50C0F1FF26000F91959 /* Debug */,
+				80DFD50D0F1FF26000F91959 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "MacOS X" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Guitar Xero" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
