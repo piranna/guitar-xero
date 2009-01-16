@@ -8,8 +8,6 @@
 			8D1107260486CEB800E47090 /* MacOS X */,
 		);
 		breakpoints = (
-			8062FCD20F1BC68F00E068F8 /* PlaySong.cpp:150 */,
-			8062FCD50F1BC69000E068F8 /* PlaySong.cpp:151 */,
 		);
 		codeSenseManager = 800406120DF2DB7600E39C61 /* Code sense */;
 		executables = (
@@ -1660,8 +1658,8 @@
 	};
 	800B531C0EF9A06E00DDC8C0 /* MainMenu.hpp */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {460, 490}}";
-			sepNavSelRange = "{121, 0}";
+			sepNavIntBoundsRect = "{{0, 0}, {463, 476}}";
+			sepNavSelRange = "{545, 0}";
 			sepNavVisRange = "{0, 576}";
 		};
 	};
@@ -2852,7 +2850,7 @@
 		rLen = 0;
 		rLoc = 114;
 		rType = 0;
-		vrLen = 361;
+		vrLen = 279;
 		vrLoc = 0;
 	};
 	8039EC3F0F096E6E00A78695 /* PBXTextBookmark */ = {
@@ -3134,6 +3132,11 @@
 		name = TryKeys.hpp;
 		path = "/Users/piranna/Proyectos/Guitar Xero/XCode/../SourceCode/Windows/TryKeys/TryKeys.hpp";
 		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {463, 434}}";
+			sepNavSelRange = "{121, 0}";
+			sepNavVisRange = "{0, 400}";
+		};
 	};
 	8062F6A20F156A9900E068F8 /* WidgetBanner.cpp */ = {
 		uiCtxt = {
@@ -3177,7 +3180,7 @@
 		rLen = 30;
 		rLoc = 114;
 		rType = 0;
-		vrLen = 314;
+		vrLen = 279;
 		vrLoc = 0;
 	};
 	8062F6E10F156D0D00E068F8 /* WidgetScript.cpp */ = {
@@ -5181,51 +5184,12 @@
 		path = "/Users/piranna/Proyectos/Guitar Xero/XCode/../SourceCode/Windows/PlaySong/PlaySong.cpp";
 		sourceTree = "<group>";
 	};
-	8062FCD00F1BC68F00E068F8 /* PlaySong.cpp */ = {
-		isa = PBXFileReference;
-		lastKnownFileType = sourcecode.cpp.cpp;
-		name = PlaySong.cpp;
-		path = "/Users/piranna/Proyectos/Guitar Xero/XCode/../SourceCode/Windows/PlaySong/PlaySong.cpp";
-		sourceTree = "<absolute>";
-	};
-	8062FCD20F1BC68F00E068F8 /* PlaySong.cpp:150 */ = {
-		isa = PBXFileBreakpoint;
-		actions = (
-		);
-		breakpointStyle = 0;
-		continueAfterActions = 0;
-		countType = 0;
-		delayBeforeContinue = 0;
-		fileReference = 8062FCD00F1BC68F00E068F8 /* PlaySong.cpp */;
-		functionName = "PlaySong::Resume()";
-		hitCount = 0;
-		ignoreCount = 0;
-		lineNumber = 150;
-		modificationTime = 253580010.631195;
-		state = 0;
-	};
 	8062FCD30F1BC69000E068F8 /* PlaySong.cpp */ = {
 		isa = PBXFileReference;
 		lastKnownFileType = sourcecode.cpp.cpp;
 		name = PlaySong.cpp;
 		path = "/Users/piranna/Proyectos/Guitar Xero/XCode/../SourceCode/Windows/PlaySong/PlaySong.cpp";
 		sourceTree = "<group>";
-	};
-	8062FCD50F1BC69000E068F8 /* PlaySong.cpp:151 */ = {
-		isa = PBXFileBreakpoint;
-		actions = (
-		);
-		breakpointStyle = 0;
-		continueAfterActions = 0;
-		countType = 0;
-		delayBeforeContinue = 0;
-		fileReference = 8062FCD30F1BC69000E068F8 /* PlaySong.cpp */;
-		functionName = "PlaySong::Resume()";
-		hitCount = 0;
-		ignoreCount = 0;
-		lineNumber = 151;
-		modificationTime = 253580010.677523;
-		state = 0;
 	};
 	8062FCE10F1BC95C00E068F8 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -5242,7 +5206,7 @@
 		fRef = 8062FCC40F1BC64100E068F8 /* PlaySong.cpp */;
 		name = "PlaySong.cpp: 155";
 		rLen = 0;
-		rLoc = 2583;
+		rLoc = 2704;
 		rType = 0;
 		vrLen = 836;
 		vrLoc = 2153;
@@ -5262,7 +5226,7 @@
 		fRef = 8062FCC40F1BC64100E068F8 /* PlaySong.cpp */;
 		name = "PlaySong.cpp: 152";
 		rLen = 0;
-		rLoc = 2552;
+		rLoc = 2673;
 		rType = 0;
 		vrLen = 832;
 		vrLoc = 2153;
@@ -5713,7 +5677,7 @@
 		fRef = 8062FCD30F1BC69000E068F8 /* PlaySong.cpp */;
 		name = "PlaySong.cpp: 246";
 		rLen = 0;
-		rLoc = 4573;
+		rLoc = 4694;
 		rType = 0;
 		vrLen = 843;
 		vrLoc = 4419;
@@ -6573,16 +6537,16 @@
 	};
 	80E081D20F04570C001F8600 /* PlaySong.cpp */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {576, 4774}}";
-			sepNavSelRange = "{5552, 56}";
-			sepNavVisRange = "{5320, 667}";
+			sepNavIntBoundsRect = "{{0, 0}, {463, 5166}}";
+			sepNavSelRange = "{121, 0}";
+			sepNavVisRange = "{0, 479}";
 		};
 	};
 	80E081D30F04570C001F8600 /* PlaySong.hpp */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {460, 854}}";
-			sepNavSelRange = "{862, 0}";
-			sepNavVisRange = "{256, 695}";
+			sepNavIntBoundsRect = "{{0, 0}, {463, 924}}";
+			sepNavSelRange = "{121, 0}";
+			sepNavVisRange = "{0, 526}";
 		};
 	};
 	80E081FA0F0459BE001F8600 /* PBXTextBookmark */ = {
@@ -7025,7 +6989,7 @@
 		fRef = 80E081D20F04570C001F8600 /* PlaySong.cpp */;
 		name = "PlaySong.cpp: 310";
 		rLen = 0;
-		rLoc = 6104;
+		rLoc = 6225;
 		rType = 0;
 		vrLen = 927;
 		vrLoc = 5504;
@@ -7195,8 +7159,8 @@
 		path = "/Users/piranna/Proyectos/Guitar Xero/XCode/../SourceCode/Windows/MainMenu/MainMenu.cpp";
 		sourceTree = "<absolute>";
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {460, 700}}";
-			sepNavSelRange = "{121, 0}";
+			sepNavIntBoundsRect = "{{0, 0}, {463, 714}}";
+			sepNavSelRange = "{548, 0}";
 			sepNavVisRange = "{0, 587}";
 		};
 	};
