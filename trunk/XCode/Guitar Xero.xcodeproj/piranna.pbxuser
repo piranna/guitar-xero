@@ -179,8 +179,8 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 253752585;
-			PBXWorkspaceStateSaveDate = 253752585;
+			PBXPerProjectTemplateStateSaveDate = 253831519;
+			PBXWorkspaceStateSaveDate = 253831519;
 		};
 		perUserProjectItems = {
 			8007D67E0F0C1B00001C55F6 = 8007D67E0F0C1B00001C55F6 /* PBXTextBookmark */;
@@ -598,13 +598,34 @@
 			80B04A9C0DF72B1D0034CBCF = 80B04A9C0DF72B1D0034CBCF /* PBXTextBookmark */;
 			80B04AA00DF72B1D0034CBCF = 80B04AA00DF72B1D0034CBCF /* PBXTextBookmark */;
 			80BD55EE0E06FF4800D4B557 = 80BD55EE0E06FF4800D4B557 /* PBXTextBookmark */;
-			80C176370F1FF516004CD0E6 /* PBXTextBookmark */ = 80C176370F1FF516004CD0E6 /* PBXTextBookmark */;
-			80C176380F1FF516004CD0E6 /* PlistBookmark */ = 80C176380F1FF516004CD0E6 /* PlistBookmark */;
-			80C176460F1FF75F004CD0E6 /* PBXTextBookmark */ = 80C176460F1FF75F004CD0E6 /* PBXTextBookmark */;
-			80C176470F1FF75F004CD0E6 /* PlistBookmark */ = 80C176470F1FF75F004CD0E6 /* PlistBookmark */;
+			80C176370F1FF516004CD0E6 = 80C176370F1FF516004CD0E6 /* PBXTextBookmark */;
+			80C176380F1FF516004CD0E6 = 80C176380F1FF516004CD0E6 /* PlistBookmark */;
+			80C176460F1FF75F004CD0E6 = 80C176460F1FF75F004CD0E6 /* PBXTextBookmark */;
+			80C176470F1FF75F004CD0E6 = 80C176470F1FF75F004CD0E6 /* PlistBookmark */;
 			80C6599B0E79FC62004095A3 = 80C6599B0E79FC62004095A3 /* PBXTextBookmark */;
 			80C6599F0E79FC62004095A3 = 80C6599F0E79FC62004095A3 /* PBXTextBookmark */;
 			80D2E1970E9993E400850E44 = 80D2E1970E9993E400850E44 /* PBXTextBookmark */;
+			80D57AC90F21297C00F06B99 /* PBXTextBookmark */ = 80D57AC90F21297C00F06B99 /* PBXTextBookmark */;
+			80D57ACA0F21297C00F06B99 /* PlistBookmark */ = 80D57ACA0F21297C00F06B99 /* PlistBookmark */;
+			80D57ACF0F212A6000F06B99 /* PBXTextBookmark */ = 80D57ACF0F212A6000F06B99 /* PBXTextBookmark */;
+			80D57AD00F212A6000F06B99 /* PlistBookmark */ = 80D57AD00F212A6000F06B99 /* PlistBookmark */;
+			80D57AD10F212A6000F06B99 /* PBXTextBookmark */ = 80D57AD10F212A6000F06B99 /* PBXTextBookmark */;
+			80D57AD20F212A6000F06B99 /* PlistBookmark */ = 80D57AD20F212A6000F06B99 /* PlistBookmark */;
+			80D57AD30F212A6000F06B99 /* PBXTextBookmark */ = 80D57AD30F212A6000F06B99 /* PBXTextBookmark */;
+			80D57AE90F212B4F00F06B99 /* PBXTextBookmark */ = 80D57AE90F212B4F00F06B99 /* PBXTextBookmark */;
+			80D57AEA0F212B4F00F06B99 /* PBXTextBookmark */ = 80D57AEA0F212B4F00F06B99 /* PBXTextBookmark */;
+			80D57AF20F212CFC00F06B99 /* PBXTextBookmark */ = 80D57AF20F212CFC00F06B99 /* PBXTextBookmark */;
+			80D57AF30F212CFC00F06B99 /* PBXTextBookmark */ = 80D57AF30F212CFC00F06B99 /* PBXTextBookmark */;
+			80D57AF40F212CFC00F06B99 /* PBXTextBookmark */ = 80D57AF40F212CFC00F06B99 /* PBXTextBookmark */;
+			80D57AFE0F212DD400F06B99 /* PBXTextBookmark */ = 80D57AFE0F212DD400F06B99 /* PBXTextBookmark */;
+			80D57AFF0F212DD400F06B99 /* PBXTextBookmark */ = 80D57AFF0F212DD400F06B99 /* PBXTextBookmark */;
+			80D57B000F212DD400F06B99 /* PBXTextBookmark */ = 80D57B000F212DD400F06B99 /* PBXTextBookmark */;
+			80D57B010F212DD400F06B99 /* PBXTextBookmark */ = 80D57B010F212DD400F06B99 /* PBXTextBookmark */;
+			80D57B020F212DD400F06B99 /* PBXTextBookmark */ = 80D57B020F212DD400F06B99 /* PBXTextBookmark */;
+			80D57B030F212DD400F06B99 /* PBXTextBookmark */ = 80D57B030F212DD400F06B99 /* PBXTextBookmark */;
+			80D57B040F212DD400F06B99 /* PBXTextBookmark */ = 80D57B040F212DD400F06B99 /* PBXTextBookmark */;
+			80D57B050F212DD400F06B99 /* PBXTextBookmark */ = 80D57B050F212DD400F06B99 /* PBXTextBookmark */;
+			80D57B060F212DD400F06B99 /* PBXTextBookmark */ = 80D57B060F212DD400F06B99 /* PBXTextBookmark */;
 			80D7044B0ECD9B2500D4BFD6 = 80D7044B0ECD9B2500D4BFD6 /* PBXTextBookmark */;
 			80D917050E8FDFD70088A6CD = 80D917050E8FDFD70088A6CD /* PBXTextBookmark */;
 			80DFD52F0F1FF4EE00F91959 = 80DFD52F0F1FF4EE00F91959 /* PBXTextBookmark */;
@@ -731,6 +752,7 @@
 		fallbackIsa = XCSourceControlManager;
 		isSCMEnabled = 0;
 		scmConfiguration = {
+			repositoryName = "Guitar Xero";
 		};
 	};
 	800406120DF2DB7600E39C61 /* Code sense */ = {
@@ -1638,9 +1660,9 @@
 	};
 	800B531C0EF9A06E00DDC8C0 /* MainMenu.hpp */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {460, 614}}";
-			sepNavSelRange = "{164, 0}";
-			sepNavVisRange = "{0, 466}";
+			sepNavIntBoundsRect = "{{0, 0}, {460, 490}}";
+			sepNavSelRange = "{121, 0}";
+			sepNavVisRange = "{0, 576}";
 		};
 	};
 	800B532E0EF9A0ED00DDC8C0 /* Audio.cpp */ = {
@@ -1896,7 +1918,7 @@
 		fRef = 80F4E4410EFC2428004311F0 /* VideoSDL.hpp */;
 		name = "VideoSDL.hpp: 18";
 		rLen = 0;
-		rLoc = 272;
+		rLoc = 393;
 		rType = 0;
 		vrLen = 344;
 		vrLoc = 0;
@@ -1906,7 +1928,7 @@
 		fRef = 80F4E4410EFC2428004311F0 /* VideoSDL.hpp */;
 		name = "VideoSDL.hpp: 18";
 		rLen = 0;
-		rLoc = 272;
+		rLoc = 393;
 		rType = 0;
 		vrLen = 344;
 		vrLoc = 0;
@@ -3651,7 +3673,7 @@
 		fRef = 800B531C0EF9A06E00DDC8C0 /* MainMenu.hpp */;
 		name = "MainMenu.hpp: 23";
 		rLen = 0;
-		rLoc = 424;
+		rLoc = 545;
 		rType = 0;
 		vrLen = 413;
 		vrLoc = 0;
@@ -3691,7 +3713,7 @@
 		fRef = 800B531C0EF9A06E00DDC8C0 /* MainMenu.hpp */;
 		name = "MainMenu.hpp: 23";
 		rLen = 0;
-		rLoc = 424;
+		rLoc = 545;
 		rType = 0;
 		vrLen = 413;
 		vrLoc = 0;
@@ -3749,7 +3771,7 @@
 		fRef = 800B531B0EF9A06E00DDC8C0 /* MainMenu.cpp */;
 		name = "MainMenu.cpp: 24";
 		rLen = 0;
-		rLoc = 427;
+		rLoc = 548;
 		rType = 0;
 		vrLen = 880;
 		vrLoc = 0;
@@ -5057,7 +5079,7 @@
 		fRef = 800B531C0EF9A06E00DDC8C0 /* MainMenu.hpp */;
 		name = "MainMenu.hpp: 9";
 		rLen = 0;
-		rLoc = 164;
+		rLoc = 285;
 		rType = 0;
 		vrLen = 466;
 		vrLoc = 0;
@@ -5067,7 +5089,7 @@
 		fRef = 800B531B0EF9A06E00DDC8C0 /* MainMenu.cpp */;
 		name = "MainMenu.cpp: 24";
 		rLen = 0;
-		rLoc = 447;
+		rLoc = 568;
 		rType = 0;
 		vrLen = 857;
 		vrLoc = 24;
@@ -5077,7 +5099,7 @@
 		fRef = 80EF9E110E9848EE0092A391 /* main.cpp */;
 		name = "main.cpp: 13";
 		rLen = 0;
-		rLoc = 222;
+		rLoc = 343;
 		rType = 0;
 		vrLen = 784;
 		vrLoc = 0;
@@ -5117,7 +5139,7 @@
 		fRef = 800B531B0EF9A06E00DDC8C0 /* MainMenu.cpp */;
 		name = "MainMenu.cpp: 24";
 		rLen = 0;
-		rLoc = 447;
+		rLoc = 568;
 		rType = 0;
 		vrLen = 857;
 		vrLoc = 24;
@@ -5460,7 +5482,7 @@
 		fRef = 80F4E4410EFC2428004311F0 /* VideoSDL.hpp */;
 		name = "VideoSDL.hpp: 21";
 		rLen = 0;
-		rLoc = 333;
+		rLoc = 454;
 		rType = 0;
 		vrLen = 365;
 		vrLoc = 0;
@@ -6010,7 +6032,7 @@
 		fRef = 80F4E4410EFC2428004311F0 /* VideoSDL.hpp */;
 		name = "VideoSDL.hpp: 21";
 		rLen = 0;
-		rLoc = 333;
+		rLoc = 454;
 		rType = 0;
 		vrLen = 365;
 		vrLoc = 0;
@@ -6032,7 +6054,7 @@
 		fRef = 80F4E4410EFC2428004311F0 /* VideoSDL.hpp */;
 		name = "VideoSDL.hpp: 21";
 		rLen = 0;
-		rLoc = 333;
+		rLoc = 454;
 		rType = 0;
 		vrLen = 365;
 		vrLoc = 0;
@@ -6098,6 +6120,222 @@
 		rLoc = 326;
 		rType = 0;
 		vrLen = 765;
+		vrLoc = 0;
+	};
+	80D57AC90F21297C00F06B99 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 80F4E4410EFC2428004311F0 /* VideoSDL.hpp */;
+		name = "VideoSDL.hpp: 21";
+		rLen = 0;
+		rLoc = 454;
+		rType = 0;
+		vrLen = 365;
+		vrLoc = 0;
+	};
+	80D57ACA0F21297C00F06B99 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 80DFD50B0F1FF25F00F91959 /* iPhone-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			CFBundleDevelopmentRegion,
+		);
+		name = "/Users/piranna/Proyectos/Guitar Xero/XCode/iPhone-Info.plist";
+		rLen = 7;
+		rLoc = 0;
+	};
+	80D57ACF0F212A6000F06B99 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 80F4E4410EFC2428004311F0 /* VideoSDL.hpp */;
+		name = "VideoSDL.hpp: 21";
+		rLen = 0;
+		rLoc = 454;
+		rType = 0;
+		vrLen = 365;
+		vrLoc = 0;
+	};
+	80D57AD00F212A6000F06B99 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 80DFD50B0F1FF25F00F91959 /* iPhone-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			CFBundleDevelopmentRegion,
+		);
+		name = "/Users/piranna/Proyectos/Guitar Xero/XCode/iPhone-Info.plist";
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	80D57AD10F212A6000F06B99 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 80EF9E110E9848EE0092A391 /* main.cpp */;
+		name = "main.cpp: 14";
+		rLen = 0;
+		rLoc = 357;
+		rType = 0;
+		vrLen = 566;
+		vrLoc = 0;
+	};
+	80D57AD20F212A6000F06B99 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 80DFD50B0F1FF25F00F91959 /* iPhone-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			CFBundleDevelopmentRegion,
+		);
+		name = "/Users/piranna/Proyectos/Guitar Xero/XCode/iPhone-Info.plist";
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	80D57AD30F212A6000F06B99 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 80EF9E110E9848EE0092A391 /* main.cpp */;
+		name = "main.cpp: 16";
+		rLen = 0;
+		rLoc = 374;
+		rType = 0;
+		vrLen = 566;
+		vrLoc = 0;
+	};
+	80D57AE90F212B4F00F06B99 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 80F4E4410EFC2428004311F0 /* VideoSDL.hpp */;
+		name = "VideoSDL.hpp: 21";
+		rLen = 0;
+		rLoc = 454;
+		rType = 0;
+		vrLen = 365;
+		vrLoc = 0;
+	};
+	80D57AEA0F212B4F00F06B99 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 80EF9E110E9848EE0092A391 /* main.cpp */;
+		name = "main.cpp: 25";
+		rLen = 0;
+		rLoc = 607;
+		rType = 0;
+		vrLen = 575;
+		vrLoc = 0;
+	};
+	80D57AF20F212CFC00F06B99 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 80F4E4410EFC2428004311F0 /* VideoSDL.hpp */;
+		name = "VideoSDL.hpp: 21";
+		rLen = 0;
+		rLoc = 454;
+		rType = 0;
+		vrLen = 365;
+		vrLoc = 0;
+	};
+	80D57AF30F212CFC00F06B99 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 80EF9E110E9848EE0092A391 /* main.cpp */;
+		name = "main.cpp: 1";
+		rLen = 119;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 608;
+		vrLoc = 0;
+	};
+	80D57AF40F212CFC00F06B99 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 80EF9E110E9848EE0092A391 /* main.cpp */;
+		name = "main.cpp: 1";
+		rLen = 119;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 608;
+		vrLoc = 0;
+	};
+	80D57AFE0F212DD400F06B99 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 80F4E4410EFC2428004311F0 /* VideoSDL.hpp */;
+		name = "VideoSDL.hpp: 7";
+		rLen = 0;
+		rLoc = 121;
+		rType = 0;
+		vrLen = 479;
+		vrLoc = 0;
+	};
+	80D57AFF0F212DD400F06B99 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 80EF9E110E9848EE0092A391 /* main.cpp */;
+		name = "main.cpp: 19";
+		rLen = 0;
+		rLoc = 343;
+		rType = 0;
+		vrLen = 608;
+		vrLoc = 0;
+	};
+	80D57B000F212DD400F06B99 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 80F628480EFC152900F5DE09 /* MainMenu.cpp */;
+		name = "MainMenu.cpp: 7";
+		rLen = 0;
+		rLoc = 121;
+		rType = 0;
+		vrLen = 587;
+		vrLoc = 0;
+	};
+	80D57B010F212DD400F06B99 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 800B531C0EF9A06E00DDC8C0 /* MainMenu.hpp */;
+		name = "MainMenu.hpp: 9";
+		rLen = 0;
+		rLoc = 285;
+		rType = 0;
+		vrLen = 466;
+		vrLoc = 0;
+	};
+	80D57B020F212DD400F06B99 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 80F4E4410EFC2428004311F0 /* VideoSDL.hpp */;
+		name = "VideoSDL.hpp: 7";
+		rLen = 0;
+		rLoc = 121;
+		rType = 0;
+		vrLen = 479;
+		vrLoc = 0;
+	};
+	80D57B030F212DD400F06B99 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 80EF9E110E9848EE0092A391 /* main.cpp */;
+		name = "main.cpp: 19";
+		rLen = 0;
+		rLoc = 343;
+		rType = 0;
+		vrLen = 608;
+		vrLoc = 0;
+	};
+	80D57B040F212DD400F06B99 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 80F628480EFC152900F5DE09 /* MainMenu.cpp */;
+		name = "MainMenu.cpp: 7";
+		rLen = 0;
+		rLoc = 121;
+		rType = 0;
+		vrLen = 587;
+		vrLoc = 0;
+	};
+	80D57B050F212DD400F06B99 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 800B531C0EF9A06E00DDC8C0 /* MainMenu.hpp */;
+		name = "MainMenu.hpp: 7";
+		rLen = 0;
+		rLoc = 121;
+		rType = 0;
+		vrLen = 576;
+		vrLoc = 0;
+	};
+	80D57B060F212DD400F06B99 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 80EF9E110E9848EE0092A391 /* main.cpp */;
+		name = "main.cpp: 1";
+		rLen = 121;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 608;
 		vrLoc = 0;
 	};
 	80D6717E0E92E75D0052AB56 /* song.ini */ = {
@@ -6194,7 +6432,7 @@
 		fRef = 80F4E4410EFC2428004311F0 /* VideoSDL.hpp */;
 		name = "VideoSDL.hpp: 21";
 		rLen = 0;
-		rLoc = 333;
+		rLoc = 454;
 		rType = 0;
 		vrLen = 365;
 		vrLoc = 0;
@@ -6264,7 +6502,7 @@
 		fRef = 80EF9E110E9848EE0092A391 /* main.cpp */;
 		name = "main.cpp: 9";
 		rLen = 0;
-		rLoc = 236;
+		rLoc = 357;
 		rType = 0;
 		vrLen = 665;
 		vrLoc = 0;
@@ -6284,7 +6522,7 @@
 		fRef = 80EF9E110E9848EE0092A391 /* main.cpp */;
 		name = "main.cpp: 9";
 		rLen = 0;
-		rLoc = 236;
+		rLoc = 357;
 		rType = 0;
 		vrLen = 665;
 		vrLoc = 0;
@@ -6372,7 +6610,7 @@
 		fRef = 800B531C0EF9A06E00DDC8C0 /* MainMenu.hpp */;
 		name = "MainMenu.hpp: 7";
 		rLen = 0;
-		rLoc = 137;
+		rLoc = 258;
 		rType = 0;
 		vrLen = 384;
 		vrLoc = 0;
@@ -6426,7 +6664,7 @@
 		fRef = 80F628480EFC152900F5DE09 /* MainMenu.cpp */;
 		name = "MainMenu.cpp: 27";
 		rLen = 44;
-		rLoc = 521;
+		rLoc = 642;
 		rType = 0;
 		vrLen = 776;
 		vrLoc = 0;
@@ -6804,9 +7042,9 @@
 	};
 	80EF9E110E9848EE0092A391 /* main.cpp */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {460, 658}}";
-			sepNavSelRange = "{222, 0}";
-			sepNavVisRange = "{0, 784}";
+			sepNavIntBoundsRect = "{{0, 0}, {463, 756}}";
+			sepNavSelRange = "{0, 121}";
+			sepNavVisRange = "{0, 608}";
 		};
 	};
 	80EF9F7D0E984AE10092A391 /* PBXTextBookmark */ = {
@@ -6848,7 +7086,7 @@
 		fRef = 80EF9E110E9848EE0092A391 /* main.cpp */;
 		name = "main.cpp: 1";
 		rLen = 0;
-		rLoc = 144;
+		rLoc = 265;
 		rType = 0;
 		vrLen = 0;
 		vrLoc = 0;
@@ -6863,9 +7101,9 @@
 	};
 	80F4E4410EFC2428004311F0 /* VideoSDL.hpp */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {460, 402}}";
-			sepNavSelRange = "{333, 0}";
-			sepNavVisRange = "{0, 365}";
+			sepNavIntBoundsRect = "{{0, 0}, {460, 462}}";
+			sepNavSelRange = "{121, 0}";
+			sepNavVisRange = "{0, 479}";
 		};
 	};
 	80F4E4420EFC2428004311F0 /* VideoSDL_Base.cpp */ = {
@@ -6956,6 +7194,11 @@
 		name = MainMenu.cpp;
 		path = "/Users/piranna/Proyectos/Guitar Xero/XCode/../SourceCode/Windows/MainMenu/MainMenu.cpp";
 		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {460, 700}}";
+			sepNavSelRange = "{121, 0}";
+			sepNavVisRange = "{0, 587}";
+		};
 	};
 	80F628610EFC15DC00F5DE09 /* WidgetBackground.cpp */ = {
 		uiCtxt = {
