@@ -38,8 +38,9 @@
 		800B53330EF9A0ED00DDC8C0 /* Audio.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 800B532E0EF9A0ED00DDC8C0 /* Audio.cpp */; };
 		800B53340EF9A0ED00DDC8C0 /* AudioSDL.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 800B53310EF9A0ED00DDC8C0 /* AudioSDL.cpp */; };
 		800B53980EF9AAA900DDC8C0 /* Song.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 800B53960EF9AAA800DDC8C0 /* Song.cpp */; };
+		801AC8E30F223BFA0092C8A5 /* GX_Font.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 801AC8E20F223BFA0092C8A5 /* GX_Font.cpp */; };
+		801AC9FC0F2275170092C8A5 /* MenuElement.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 801AC9FB0F2275170092C8A5 /* MenuElement.cpp */; };
 		801D71400EFD7F7B00ED83E7 /* WidgetLabel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 801D713F0EFD7F7B00ED83E7 /* WidgetLabel.cpp */; };
-		8020A9340DF359E600288A1E /* OGL_S2T.c in Sources */ = {isa = PBXBuildFile; fileRef = 8020A9320DF359E600288A1E /* OGL_S2T.c */; };
 		8027215D0E139BD1006B94DA /* Tutorial in Resources */ = {isa = PBXBuildFile; fileRef = 802721530E139BD1006B94DA /* Tutorial */; };
 		802D60360E43F01D007B16E9 /* SDL_framerate.c in Sources */ = {isa = PBXBuildFile; fileRef = 802D602B0E43F01D007B16E9 /* SDL_framerate.c */; };
 		802D60370E43F01D007B16E9 /* SDL_gfxBlitFunc.c in Sources */ = {isa = PBXBuildFile; fileRef = 802D602D0E43F01D007B16E9 /* SDL_gfxBlitFunc.c */; };
@@ -186,6 +187,10 @@
 		800B55A70EFA6DCA00DDC8C0 /* MenuManager.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = MenuManager.hpp; sourceTree = "<group>"; };
 		800B55A80EFA6DCA00DDC8C0 /* WidgetMenu.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = WidgetMenu.cpp; sourceTree = "<group>"; };
 		800B55A90EFA6DCA00DDC8C0 /* WidgetMenu.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = WidgetMenu.hpp; sourceTree = "<group>"; };
+		801AC8DF0F2214550092C8A5 /* Milestones */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Milestones; sourceTree = "<group>"; };
+		801AC8E10F223BF90092C8A5 /* GX_Font.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = GX_Font.hpp; sourceTree = "<group>"; };
+		801AC8E20F223BFA0092C8A5 /* GX_Font.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GX_Font.cpp; sourceTree = "<group>"; };
+		801AC9FB0F2275170092C8A5 /* MenuElement.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MenuElement.cpp; sourceTree = "<group>"; };
 		801D713E0EFD7F7B00ED83E7 /* WidgetLabel.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = WidgetLabel.hpp; sourceTree = "<group>"; };
 		801D713F0EFD7F7B00ED83E7 /* WidgetLabel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = WidgetLabel.cpp; sourceTree = "<group>"; };
 		8020A9320DF359E600288A1E /* OGL_S2T.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; path = OGL_S2T.c; sourceTree = "<group>"; };
@@ -263,7 +268,6 @@
 		80BDF4720F003C7D00366C0D /* SongSelector.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SongSelector.cpp; sourceTree = "<group>"; };
 		80D7A9820E1195B800A14F3E /* Songs */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Songs; sourceTree = "<group>"; };
 		80DFD5080F1FF25F00F91959 /* iPhone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iPhone.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		80DFD50B0F1FF25F00F91959 /* iPhone-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iPhone-Info.plist"; sourceTree = "<group>"; };
 		80E07EB50F02D94F001F8600 /* MenuSong.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = MenuSong.hpp; sourceTree = "<group>"; };
 		80E07EB60F02D94F001F8600 /* MenuSong.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MenuSong.cpp; sourceTree = "<group>"; };
 		80E07EB80F02D95F001F8600 /* MenuAlbum.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = MenuAlbum.hpp; sourceTree = "<group>"; };
@@ -419,7 +423,6 @@
 		800407160DF2DD7400E39C61 /* XCode */ = {
 			isa = PBXGroup;
 			children = (
-				80DFD50B0F1FF25F00F91959 /* iPhone-Info.plist */,
 				8D1107320486CEB800E47090 /* Guitar Xero.app */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				8004077C0DF2DD7500E39C61 /* Guitar Xero_Prefix.pch */,
@@ -520,6 +523,7 @@
 		800B530A0EF9A00700DDC8C0 /* GX_Lib */ = {
 			isa = PBXGroup;
 			children = (
+				801AC8E00F223BE20092C8A5 /* GX_Font */,
 				80F629640EFC1A9C00F5DE09 /* GX_Graphic */,
 				800B52AB0EF9967900DDC8C0 /* List */,
 				800B530B0EF9A00700DDC8C0 /* MainLoop */,
@@ -680,6 +684,7 @@
 				800B530E0EF9A00700DDC8C0 /* MenuData */,
 				800B55A50EFA6DCA00DDC8C0 /* MenuManager */,
 				80BDF3FF0EFF7B4600366C0D /* MenuElement.hpp */,
+				801AC9FB0F2275170092C8A5 /* MenuElement.cpp */,
 				8007D7DF0F0D343E001C55F6 /* MenuEntry.hpp */,
 			);
 			path = Menu;
@@ -692,6 +697,15 @@
 				800B55A70EFA6DCA00DDC8C0 /* MenuManager.hpp */,
 			);
 			path = MenuManager;
+			sourceTree = "<group>";
+		};
+		801AC8E00F223BE20092C8A5 /* GX_Font */ = {
+			isa = PBXGroup;
+			children = (
+				801AC8E10F223BF90092C8A5 /* GX_Font.hpp */,
+				801AC8E20F223BFA0092C8A5 /* GX_Font.cpp */,
+			);
+			path = GX_Font;
 			sourceTree = "<group>";
 		};
 		801D713D0EFD7F4900ED83E7 /* Label */ = {
@@ -852,6 +866,7 @@
 				80664B000E457D64000965B3 /* Guitar Xero RoadMap.txt */,
 				80664B010E457D64000965B3 /* notas */,
 				80664B020E457D64000965B3 /* TO-DOs */,
+				801AC8DF0F2214550092C8A5 /* Milestones */,
 			);
 			name = Documentation;
 			path = ../Documentation;
@@ -1157,7 +1172,6 @@
 				800406C70DF2DC9C00E39C61 /* FileIO.cpp in Sources */,
 				800406C80DF2DC9C00E39C61 /* MidiFile.cpp in Sources */,
 				800407D70DF2DD7500E39C61 /* SDLMain.m in Sources */,
-				8020A9340DF359E600288A1E /* OGL_S2T.c in Sources */,
 				802D60360E43F01D007B16E9 /* SDL_framerate.c in Sources */,
 				802D60370E43F01D007B16E9 /* SDL_gfxBlitFunc.c in Sources */,
 				802D60380E43F01D007B16E9 /* SDL_gfxPrimitives.c in Sources */,
@@ -1230,6 +1244,8 @@
 				8062F7490F16A71800E068F8 /* Note.cpp in Sources */,
 				8062FB3F0F1A460A00E068F8 /* MenuData.cpp in Sources */,
 				8062FB410F1A461700E068F8 /* MenuManager.cpp in Sources */,
+				801AC8E30F223BFA0092C8A5 /* GX_Font.cpp in Sources */,
+				801AC9FC0F2275170092C8A5 /* MenuElement.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
