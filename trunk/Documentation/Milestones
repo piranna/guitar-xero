@@ -1,0 +1,36 @@
+[2008-01-15] 0.5 - Beta 1
+             ============
+
+0.6
+===
+[2008-01-17] Font cacher
+Clean GX_Lib and make it independent
+Scores
+Upload scores
+
+1.0:
+===
+No memory leaks
+2D interface in SDL
+2D interface in OpenGL
+XBox port
+Joystick/guitar support
+
+Post 1.0:
+=========
+No memory leaks
+iPhone port
+3D interface in OpenGL
+3D interface in SDL
+2D interface in DirectX
+3D interface in DirectX
+Song editor
+Song importer
+Song library
+Visual themes
+Game modes (Frets on Fire, Guitar Hero)
+In-screen multiplayer
+Net multiplayer
+Different input modes (MIDI, electric guitar)
+Different instruments
+Voice support

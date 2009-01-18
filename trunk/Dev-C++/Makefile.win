@@ -1,0 +1,234 @@
+# Project: Guitar Xero
+# Compiler: Default GCC compiler
+# Compiler Type: MingW 3
+# Makefile created by wxDev-C++ 6.10.2 on 29/09/08 17:24
+
+CPP       = g++.exe
+CC        = gcc.exe
+WINDRES   = windres.exe
+OBJ       = build/main.o build/Array.o build/Collection.o build/FileIO.o build/MidiFile.o build/common.o build/VideoSDL_Base.o build/OGL_S2T.o build/Animator.o build/Actions.o build/List.o build/Parser.o build/ParserOptions.o build/ParserScript.o build/Song.o build/Timer.o build/Audio.o build/AudioSDL.o build/Input.o build/InputSDL.o build/Video.o build/VideoSDL.o build/Menu.o build/MenuManager.o build/SelectSong.o build/TextMenu.o build/DirElement.o build/Configuration.o build/ControlConfig.o build/GameConfig.o build/ModSettings.o build/NoSongs.o build/PauseMenu.o build/SelectDificulty.o build/SongEditor.o build/SoundConfig.o build/StartingMenu.o build/VideoConfig.o build/VolumeSettings.o build/MenuElement.o build/Widget.o build/WidgetSDL.o build/WidgetAnimatedBackground.o build/WidgetAnimatedBackgroundSDL.o build/WidgetBackground.o build/WidgetBackgroundSDL.o build/WidgetBanner.o build/WidgetBannerSDL.o build/WidgetFretBoard.o build/WidgetFretBoardSDL.o build/WidgetKeyNotes.o build/WidgetKeyNotesSDL.o build/WidgetLifeBarSDL.o build/WidgetMenu.o build/WidgetMenuSDL.o build/MenuItemSDL.o build/WidgetScript.o build/WidgetScriptSDL.o build/WidgetWindow.o build/WidgetWindowSDL.o build/MainLoop.o build/MainMenu.o build/PauseWindow.o build/PlaySong.o build/SongFinished.o build/TryKeys.o build/WigdetLifebar.o build/Guitar_Xero_private.res
+LINKOBJ   = build/main.o build/Array.o build/Collection.o build/FileIO.o build/MidiFile.o build/common.o build/VideoSDL_Base.o build/OGL_S2T.o build/Animator.o build/Actions.o build/List.o build/Parser.o build/ParserOptions.o build/ParserScript.o build/Song.o build/Timer.o build/Audio.o build/AudioSDL.o build/Input.o build/InputSDL.o build/Video.o build/VideoSDL.o build/Menu.o build/MenuManager.o build/SelectSong.o build/TextMenu.o build/DirElement.o build/Configuration.o build/ControlConfig.o build/GameConfig.o build/ModSettings.o build/NoSongs.o build/PauseMenu.o build/SelectDificulty.o build/SongEditor.o build/SoundConfig.o build/StartingMenu.o build/VideoConfig.o build/VolumeSettings.o build/MenuElement.o build/Widget.o build/WidgetSDL.o build/WidgetAnimatedBackground.o build/WidgetAnimatedBackgroundSDL.o build/WidgetBackground.o build/WidgetBackgroundSDL.o build/WidgetBanner.o build/WidgetBannerSDL.o build/WidgetFretBoard.o build/WidgetFretBoardSDL.o build/WidgetKeyNotes.o build/WidgetKeyNotesSDL.o build/WidgetLifeBarSDL.o build/WidgetMenu.o build/WidgetMenuSDL.o build/MenuItemSDL.o build/WidgetScript.o build/WidgetScriptSDL.o build/WidgetWindow.o build/WidgetWindowSDL.o build/MainLoop.o build/MainMenu.o build/PauseWindow.o build/PlaySong.o build/SongFinished.o build/TryKeys.o build/WigdetLifebar.o build/Guitar_Xero_private.res
+LIBS      = -L"C:/Archivos de programa/Dev-Cpp/Lib" -lmingw32 -lSDLmain -lSDL -lSDL_ttf -lSDL_mixer -lSDL_image -lSDL_gfx -lopengl32  -lgmon -pg  -g3 
+INCS      = -I"include" -I"../Libs/MidiFile" -I"../SourceCode" -I"../SourceCode/Animators" -I"../SourceCode/Common" -I"../SourceCode/Common/List" -I"../SourceCode/Common/Parser" -I"../SourceCode/Common/Song" -I"../SourceCode/Common/Timer" -I"../SourceCode/MainLoop" -I"../SourceCode/MainLoop/Components" -I"../SourceCode/MainLoop/Components/MainMenu" -I"../SourceCode/MainLoop/Components/PauseWindow" -I"../SourceCode/MainLoop/Components/PlaySong" -I"../SourceCode/MainLoop/Components/SongFinished" -I"../SourceCode/MainLoop/Components/TryKeys" -I"../SourceCode/Interfaces/Audio" -I"../SourceCode/Interfaces/Audio/AudioSDL" -I"../SourceCode/Interfaces/Input" -I"../SourceCode/Interfaces/Input/InputSDL" -I"../SourceCode/Interfaces/Video" -I"../SourceCode/Interfaces/Video/VideoSDL_Base" -I"../SourceCode/Interfaces/Video/VideoSDL_Base/VideoOGL_SDL_2D" -I"../SourceCode/Interfaces/Video/VideoSDL_Base/VideoSDL" -I"../SourceCode/Menu" -I"../SourceCode/Menu/MenuManager" -I"../SourceCode/Menu/SelectSong" -I"../SourceCode/Menu/SelectSong/DirElement" -I"../SourceCode/Menu/TextMenu" -I"../SourceCode/Menu/TextMenu/Data" -I"../SourceCode/Menu/TextMenu/MenuElement" -I"../SourceCode/Widgets" -I"../SourceCode/Widgets/Interfaces" -I"../SourceCode/Widgets/WidgetAnimatedBackground" -I"../SourceCode/Widgets/WidgetBackground" -I"../SourceCode/Widgets/WidgetBanner" -I"../SourceCode/Widgets/WidgetFretboard" -I"../SourceCode/Widgets/WidgetKeynotes" -I"../SourceCode/Widgets/WidgetLifebar" -I"../SourceCode/Widgets/WidgetMenu" -I"../SourceCode/Widgets/WidgetMenu/MenuItemSDL" -I"../SourceCode/Widgets/WidgetScript" -I"../SourceCode/Widgets/WidgetWindow" -I"../../Libs/OGL_S2T"
+CXXINCS   = -I"C:/Archivos de programa/Dev-Cpp/lib/gcc/mingw32/3.4.2/include" -I"C:/Archivos de programa/Dev-Cpp/include/c++/3.4.2/backward" -I"C:/Archivos de programa/Dev-Cpp/include/c++/3.4.2/mingw32" -I"C:/Archivos de programa/Dev-Cpp/include/c++/3.4.2" -I"C:/Archivos de programa/Dev-Cpp/include" -I"C:/Archivos de programa/Dev-Cpp/" -I"C:/Archivos de programa/Dev-Cpp/include/common/wx/msw" -I"C:/Archivos de programa/Dev-Cpp/include/common/wx/generic" -I"C:/Archivos de programa/Dev-Cpp/include/common/wx/fl" -I"C:/Archivos de programa/Dev-Cpp/include/common/wx/gizmos" -I"C:/Archivos de programa/Dev-Cpp/include/common/wx/html" -I"C:/Archivos de programa/Dev-Cpp/include/common/wx/mmedia" -I"C:/Archivos de programa/Dev-Cpp/include/common/wx/net" -I"C:/Archivos de programa/Dev-Cpp/include/common/wx/ogl" -I"C:/Archivos de programa/Dev-Cpp/include/common/wx/plot" -I"C:/Archivos de programa/Dev-Cpp/include/common/wx/protocol" -I"C:/Archivos de programa/Dev-Cpp/include/common/wx/stc" -I"C:/Archivos de programa/Dev-Cpp/include/common/wx/svg" -I"C:/Archivos de programa/Dev-Cpp/include/common/wx/xml" -I"C:/Archivos de programa/Dev-Cpp/include/common/wx/xrc" -I"C:/Archivos de programa/Dev-Cpp/include/common/wx" -I"C:/Archivos de programa/Dev-Cpp/include/common" -I"../Libs/MidiFile" -I"../SourceCode" -I"../SourceCode/Animators" -I"../SourceCode/Common" -I"../SourceCode/Common/List" -I"../SourceCode/Common/Parser" -I"../SourceCode/Common/Song" -I"../SourceCode/Common/Timer" -I"../SourceCode/MainLoop" -I"../SourceCode/MainLoop/Components" -I"../SourceCode/MainLoop/Components/MainMenu" -I"../SourceCode/MainLoop/Components/PauseWindow" -I"../SourceCode/MainLoop/Components/PlaySong" -I"../SourceCode/MainLoop/Components/SongFinished" -I"../SourceCode/MainLoop/Components/TryKeys" -I"../SourceCode/Interfaces/Audio" -I"../SourceCode/Interfaces/Audio/AudioSDL" -I"../SourceCode/Interfaces/Input" -I"../SourceCode/Interfaces/Input/InputSDL" -I"../SourceCode/Interfaces/Video" -I"../SourceCode/Interfaces/Video/VideoSDL_Base" -I"../SourceCode/Interfaces/Video/VideoSDL_Base/VideoOGL_SDL_2D" -I"../SourceCode/Interfaces/Video/VideoSDL_Base/VideoSDL" -I"../SourceCode/Menu" -I"../SourceCode/Menu/MenuManager" -I"../SourceCode/Menu/SelectSong" -I"../SourceCode/Menu/SelectSong/DirElement" -I"../SourceCode/Menu/TextMenu" -I"../SourceCode/Menu/TextMenu/Data" -I"../SourceCode/Menu/TextMenu/MenuElement" -I"../SourceCode/Widgets" -I"../SourceCode/Widgets/Interfaces" -I"../SourceCode/Widgets/WidgetAnimatedBackground" -I"../SourceCode/Widgets/WidgetBackground" -I"../SourceCode/Widgets/WidgetBanner" -I"../SourceCode/Widgets/WidgetFretboard" -I"../SourceCode/Widgets/WidgetKeynotes" -I"../SourceCode/Widgets/WidgetLifebar" -I"../SourceCode/Widgets/WidgetMenu" -I"../SourceCode/Widgets/WidgetMenu/MenuItemSDL" -I"../SourceCode/Widgets/WidgetScript" -I"../SourceCode/Widgets/WidgetWindow" -I"../../Libs/OGL_S2T"
+RCINCS    = --include-dir "C:/ARCHIV~1/Dev-Cpp/include/common"
+BIN       = bin/Guitar\ Xero.exe
+DEFINES   = 
+CXXFLAGS  = $(CXXINCS) $(DEFINES)   -pg -g3
+CFLAGS    = $(INCS) $(DEFINES)   -pg -g3
+GPROF     = gprof.exe
+RM        = rm -f
+LINK      = g++.exe
+
+.PHONY: all all-before all-after clean clean-custom
+all: all-before $(BIN) all-after
+
+clean: clean-custom
+	$(RM) $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(LINK) $(LINKOBJ) -o "bin\Guitar Xero.exe" $(LIBS)
+
+build/main.o: $(GLOBALDEPS) ../SourceCode/main.cpp
+	$(CPP) -c ../SourceCode/main.cpp -o build/main.o $(CXXFLAGS)
+
+build/Array.o: $(GLOBALDEPS) ../Libs/MidiFile/Array.cpp ../Libs/MidiFile/Array.h ../Libs/MidiFile/Collection.h ../Libs/MidiFile/Collection.cpp ../Libs/MidiFile/Collection.h
+	$(CPP) -c ../Libs/MidiFile/Array.cpp -o build/Array.o $(CXXFLAGS)
+
+build/Collection.o: $(GLOBALDEPS) ../Libs/MidiFile/Collection.cpp ../Libs/MidiFile/Collection.h ../Libs/MidiFile/Collection.cpp ../Libs/MidiFile/Collection.h
+	$(CPP) -c ../Libs/MidiFile/Collection.cpp -o build/Collection.o $(CXXFLAGS)
+
+build/FileIO.o: $(GLOBALDEPS) ../Libs/MidiFile/FileIO.cpp ../Libs/MidiFile/sigConfiguration.h ../Libs/MidiFile/FileIO.h
+	$(CPP) -c ../Libs/MidiFile/FileIO.cpp -o build/FileIO.o $(CXXFLAGS)
+
+build/MidiFile.o: $(GLOBALDEPS) ../Libs/MidiFile/MidiFile.cpp ../Libs/MidiFile/MidiFile.h ../Libs/MidiFile/FileIO.h ../Libs/MidiFile/Array.h ../Libs/MidiFile/Collection.h ../Libs/MidiFile/Collection.cpp ../Libs/MidiFile/Collection.h ../Libs/MidiFile/Collection.h
+	$(CPP) -c ../Libs/MidiFile/MidiFile.cpp -o build/MidiFile.o $(CXXFLAGS)
+
+build/common.o: $(GLOBALDEPS) ../SourceCode/Common/common.cpp ../SourceCode/Common/common.hpp ../SourceCode/Common/constants.hpp ../SourceCode/Common/compileConfiguration.h
+	$(CPP) -c ../SourceCode/Common/common.cpp -o build/common.o $(CXXFLAGS)
+
+build/VideoSDL_Base.o: $(GLOBALDEPS) ../SourceCode/Interfaces/Video/VideoSDL_Base/VideoSDL_Base.cpp ../SourceCode/Interfaces/Video/VideoSDL_Base/VideoSDL_Base.hpp
+	$(CPP) -c ../SourceCode/Interfaces/Video/VideoSDL_Base/VideoSDL_Base.cpp -o build/VideoSDL_Base.o $(CXXFLAGS)
+
+build/OGL_S2T.o: $(GLOBALDEPS) ../../Libs/OGL_S2T/OGL_S2T.c ../../Libs/OGL_S2T/OGL_S2T.h
+	$(CPP) -c ../../Libs/OGL_S2T/OGL_S2T.c -o build/OGL_S2T.o $(CXXFLAGS)
+
+build/Animator.o: $(GLOBALDEPS) ../SourceCode/Animators/Animator.cpp ../SourceCode/Animators/Animator.hpp
+	$(CPP) -c ../SourceCode/Animators/Animator.cpp -o build/Animator.o $(CXXFLAGS)
+
+build/Actions.o: $(GLOBALDEPS) ../SourceCode/Common/Actions.cpp ../SourceCode/Common/Actions.hpp
+	$(CPP) -c ../SourceCode/Common/Actions.cpp -o build/Actions.o $(CXXFLAGS)
+
+build/List.o: $(GLOBALDEPS) ../SourceCode/Common/List/List.cpp ../SourceCode/Common/List/List.hpp
+	$(CPP) -c ../SourceCode/Common/List/List.cpp -o build/List.o $(CXXFLAGS)
+
+build/Parser.o: $(GLOBALDEPS) ../SourceCode/Common/Parser/Parser.cpp ../SourceCode/Common/Parser/Parser.hpp
+	$(CPP) -c ../SourceCode/Common/Parser/Parser.cpp -o build/Parser.o $(CXXFLAGS)
+
+build/ParserOptions.o: $(GLOBALDEPS) ../SourceCode/Common/Parser/ParserOptions.cpp ../SourceCode/Common/Parser/ParserOptions.hpp ../SourceCode/Common/Parser/Parser.hpp
+	$(CPP) -c ../SourceCode/Common/Parser/ParserOptions.cpp -o build/ParserOptions.o $(CXXFLAGS)
+
+build/ParserScript.o: $(GLOBALDEPS) ../SourceCode/Common/Parser/ParserScript.cpp ../SourceCode/Common/Parser/ParserScript.hpp ../SourceCode/Common/Parser/Parser.hpp
+	$(CPP) -c ../SourceCode/Common/Parser/ParserScript.cpp -o build/ParserScript.o $(CXXFLAGS)
+
+build/Song.o: $(GLOBALDEPS) ../SourceCode/Common/Song/Song.cpp ../SourceCode/Common/Song/Song.hpp ../SourceCode/Common/Song/Note.hpp
+	$(CPP) -c ../SourceCode/Common/Song/Song.cpp -o build/Song.o $(CXXFLAGS)
+
+build/Timer.o: $(GLOBALDEPS) ../SourceCode/Common/Timer/Timer.cpp ../SourceCode/Common/Timer/Timer.hpp
+	$(CPP) -c ../SourceCode/Common/Timer/Timer.cpp -o build/Timer.o $(CXXFLAGS)
+
+build/Audio.o: $(GLOBALDEPS) ../SourceCode/Interfaces/Audio/Audio.cpp ../SourceCode/Interfaces/Audio/Audio.hpp
+	$(CPP) -c ../SourceCode/Interfaces/Audio/Audio.cpp -o build/Audio.o $(CXXFLAGS)
+
+build/AudioSDL.o: $(GLOBALDEPS) ../SourceCode/Interfaces/Audio/AudioSDL/AudioSDL.cpp ../SourceCode/Interfaces/Audio/AudioSDL/AudioSDL.hpp
+	$(CPP) -c ../SourceCode/Interfaces/Audio/AudioSDL/AudioSDL.cpp -o build/AudioSDL.o $(CXXFLAGS)
+
+build/Input.o: $(GLOBALDEPS) ../SourceCode/Interfaces/Input/Input.cpp ../SourceCode/Interfaces/Input/Input.hpp
+	$(CPP) -c ../SourceCode/Interfaces/Input/Input.cpp -o build/Input.o $(CXXFLAGS)
+
+build/InputSDL.o: $(GLOBALDEPS) ../SourceCode/Interfaces/Input/InputSDL/InputSDL.cpp ../SourceCode/Interfaces/Input/InputSDL/InputSDL.hpp
+	$(CPP) -c ../SourceCode/Interfaces/Input/InputSDL/InputSDL.cpp -o build/InputSDL.o $(CXXFLAGS)
+
+build/Video.o: $(GLOBALDEPS) ../SourceCode/Interfaces/Video/Video.cpp ../SourceCode/Interfaces/Video/Video.hpp
+	$(CPP) -c ../SourceCode/Interfaces/Video/Video.cpp -o build/Video.o $(CXXFLAGS)
+
+build/VideoSDL.o: $(GLOBALDEPS) ../SourceCode/Interfaces/Video/VideoSDL_Base/VideoSDL/VideoSDL.cpp ../SourceCode/Interfaces/Video/VideoSDL_Base/VideoSDL/VideoSDL.hpp
+	$(CPP) -c ../SourceCode/Interfaces/Video/VideoSDL_Base/VideoSDL/VideoSDL.cpp -o build/VideoSDL.o $(CXXFLAGS)
+
+build/Menu.o: $(GLOBALDEPS) ../SourceCode/Menu/Menu.cpp ../SourceCode/Menu/Menu.hpp
+	$(CPP) -c ../SourceCode/Menu/Menu.cpp -o build/Menu.o $(CXXFLAGS)
+
+build/MenuManager.o: $(GLOBALDEPS) ../SourceCode/Menu/MenuManager/MenuManager.cpp ../SourceCode/Menu/MenuManager/MenuManager.hpp
+	$(CPP) -c ../SourceCode/Menu/MenuManager/MenuManager.cpp -o build/MenuManager.o $(CXXFLAGS)
+
+build/SelectSong.o: $(GLOBALDEPS) ../SourceCode/Menu/SelectSong/SelectSong.cpp ../SourceCode/Menu/SelectSong/SelectSong.hpp
+	$(CPP) -c ../SourceCode/Menu/SelectSong/SelectSong.cpp -o build/SelectSong.o $(CXXFLAGS)
+
+build/TextMenu.o: $(GLOBALDEPS) ../SourceCode/Menu/TextMenu/TextMenu.cpp ../SourceCode/Menu/TextMenu/TextMenu.hpp
+	$(CPP) -c ../SourceCode/Menu/TextMenu/TextMenu.cpp -o build/TextMenu.o $(CXXFLAGS)
+
+build/DirElement.o: $(GLOBALDEPS) ../SourceCode/Menu/SelectSong/DirElement/DirElement.cpp ../SourceCode/Menu/SelectSong/DirElement/DirElement.hpp
+	$(CPP) -c ../SourceCode/Menu/SelectSong/DirElement/DirElement.cpp -o build/DirElement.o $(CXXFLAGS)
+
+build/Configuration.o: $(GLOBALDEPS) ../SourceCode/Menu/TextMenu/Data/Configuration.cpp ../SourceCode/Menu/TextMenu/Data/Configuration.hpp ../SourceCode/Menu/TextMenu/Data/StartingMenu.hpp ../SourceCode/Menu/TextMenu/Data/GameConfig.hpp ../SourceCode/Menu/TextMenu/Data/ControlConfig.hpp ../SourceCode/Menu/TextMenu/Data/VideoConfig.hpp ../SourceCode/Menu/TextMenu/Data/SoundConfig.hpp
+	$(CPP) -c ../SourceCode/Menu/TextMenu/Data/Configuration.cpp -o build/Configuration.o $(CXXFLAGS)
+
+build/ControlConfig.o: $(GLOBALDEPS) ../SourceCode/Menu/TextMenu/Data/ControlConfig.cpp ../SourceCode/Menu/TextMenu/Data/ControlConfig.hpp ../SourceCode/Menu/TextMenu/Data/Configuration.hpp
+	$(CPP) -c ../SourceCode/Menu/TextMenu/Data/ControlConfig.cpp -o build/ControlConfig.o $(CXXFLAGS)
+
+build/GameConfig.o: $(GLOBALDEPS) ../SourceCode/Menu/TextMenu/Data/GameConfig.cpp ../SourceCode/Menu/TextMenu/Data/GameConfig.hpp ../SourceCode/Menu/TextMenu/Data/Configuration.hpp ../SourceCode/Menu/TextMenu/Data/ModSettings.hpp
+	$(CPP) -c ../SourceCode/Menu/TextMenu/Data/GameConfig.cpp -o build/GameConfig.o $(CXXFLAGS)
+
+build/ModSettings.o: $(GLOBALDEPS) ../SourceCode/Menu/TextMenu/Data/ModSettings.cpp ../SourceCode/Menu/TextMenu/Data/ModSettings.hpp ../SourceCode/Menu/TextMenu/Data/GameConfig.hpp
+	$(CPP) -c ../SourceCode/Menu/TextMenu/Data/ModSettings.cpp -o build/ModSettings.o $(CXXFLAGS)
+
+build/NoSongs.o: $(GLOBALDEPS) ../SourceCode/Menu/TextMenu/Data/NoSongs.cpp ../SourceCode/Menu/TextMenu/Data/NoSongs.hpp ../SourceCode/Menu/TextMenu/Data/StartingMenu.hpp
+	$(CPP) -c ../SourceCode/Menu/TextMenu/Data/NoSongs.cpp -o build/NoSongs.o $(CXXFLAGS)
+
+build/PauseMenu.o: $(GLOBALDEPS) ../SourceCode/Menu/TextMenu/Data/PauseMenu.cpp ../SourceCode/Menu/TextMenu/Data/PauseMenu.hpp ../SourceCode/Menu/TextMenu/Data/VolumeSettings.hpp ../SourceCode/Menu/TextMenu/Data/StartingMenu.hpp
+	$(CPP) -c ../SourceCode/Menu/TextMenu/Data/PauseMenu.cpp -o build/PauseMenu.o $(CXXFLAGS)
+
+build/SelectDificulty.o: $(GLOBALDEPS) ../SourceCode/Menu/TextMenu/Data/SelectDificulty.cpp ../SourceCode/Menu/TextMenu/Data/SelectDificulty.hpp
+	$(CPP) -c ../SourceCode/Menu/TextMenu/Data/SelectDificulty.cpp -o build/SelectDificulty.o $(CXXFLAGS)
+
+build/SongEditor.o: $(GLOBALDEPS) ../SourceCode/Menu/TextMenu/Data/SongEditor.cpp ../SourceCode/Menu/TextMenu/Data/SongEditor.hpp ../SourceCode/Menu/TextMenu/Data/StartingMenu.hpp
+	$(CPP) -c ../SourceCode/Menu/TextMenu/Data/SongEditor.cpp -o build/SongEditor.o $(CXXFLAGS)
+
+build/SoundConfig.o: $(GLOBALDEPS) ../SourceCode/Menu/TextMenu/Data/SoundConfig.cpp ../SourceCode/Menu/TextMenu/Data/SoundConfig.hpp ../SourceCode/Menu/TextMenu/Data/VolumeSettings.hpp ../SourceCode/Menu/TextMenu/Data/Configuration.hpp
+	$(CPP) -c ../SourceCode/Menu/TextMenu/Data/SoundConfig.cpp -o build/SoundConfig.o $(CXXFLAGS)
+
+build/StartingMenu.o: $(GLOBALDEPS) ../SourceCode/Menu/TextMenu/Data/StartingMenu.cpp ../SourceCode/Menu/TextMenu/Data/StartingMenu.hpp ../SourceCode/Menu/TextMenu/Data/SongEditor.hpp ../SourceCode/Menu/TextMenu/Data/Configuration.hpp
+	$(CPP) -c ../SourceCode/Menu/TextMenu/Data/StartingMenu.cpp -o build/StartingMenu.o $(CXXFLAGS)
+
+build/VideoConfig.o: $(GLOBALDEPS) ../SourceCode/Menu/TextMenu/Data/VideoConfig.cpp ../SourceCode/Menu/TextMenu/Data/VideoConfig.hpp ../SourceCode/Menu/TextMenu/Data/Configuration.hpp
+	$(CPP) -c ../SourceCode/Menu/TextMenu/Data/VideoConfig.cpp -o build/VideoConfig.o $(CXXFLAGS)
+
+build/VolumeSettings.o: $(GLOBALDEPS) ../SourceCode/Menu/TextMenu/Data/VolumeSettings.cpp ../SourceCode/Menu/TextMenu/Data/VolumeSettings.hpp ../SourceCode/Menu/TextMenu/Data/SoundConfig.hpp ../SourceCode/Menu/TextMenu/Data/PauseMenu.hpp
+	$(CPP) -c ../SourceCode/Menu/TextMenu/Data/VolumeSettings.cpp -o build/VolumeSettings.o $(CXXFLAGS)
+
+build/MenuElement.o: $(GLOBALDEPS) ../SourceCode/Menu/TextMenu/MenuElement/MenuElement.cpp ../SourceCode/Menu/TextMenu/MenuElement/MenuElement.hpp
+	$(CPP) -c ../SourceCode/Menu/TextMenu/MenuElement/MenuElement.cpp -o build/MenuElement.o $(CXXFLAGS)
+
+build/Widget.o: $(GLOBALDEPS) ../SourceCode/Widgets/Widget.cpp ../SourceCode/Widgets/Widget.hpp
+	$(CPP) -c ../SourceCode/Widgets/Widget.cpp -o build/Widget.o $(CXXFLAGS)
+
+build/WidgetSDL.o: $(GLOBALDEPS) ../SourceCode/Widgets/Interfaces/WidgetSDL.cpp ../SourceCode/Widgets/Interfaces/WidgetSDL.hpp
+	$(CPP) -c ../SourceCode/Widgets/Interfaces/WidgetSDL.cpp -o build/WidgetSDL.o $(CXXFLAGS)
+
+build/WidgetAnimatedBackground.o: $(GLOBALDEPS) ../SourceCode/Widgets/WidgetAnimatedBackGround/WidgetAnimatedBackground.cpp ../SourceCode/Widgets/WidgetAnimatedBackGround/WidgetAnimatedBackground.hpp ../SourceCode/Widgets/WidgetAnimatedBackGround/WidgetAnimatedBackgroundSDL.hpp ../SourceCode/Widgets/WidgetAnimatedBackGround/WidgetAnimatedBackground.hpp
+	$(CPP) -c ../SourceCode/Widgets/WidgetAnimatedBackGround/WidgetAnimatedBackground.cpp -o build/WidgetAnimatedBackground.o $(CXXFLAGS)
+
+build/WidgetAnimatedBackgroundSDL.o: $(GLOBALDEPS) ../SourceCode/Widgets/WidgetAnimatedBackGround/WidgetAnimatedBackgroundSDL.cpp ../SourceCode/Widgets/WidgetAnimatedBackGround/WidgetAnimatedBackgroundSDL.hpp ../SourceCode/Widgets/WidgetAnimatedBackGround/WidgetAnimatedBackground.hpp
+	$(CPP) -c ../SourceCode/Widgets/WidgetAnimatedBackGround/WidgetAnimatedBackgroundSDL.cpp -o build/WidgetAnimatedBackgroundSDL.o $(CXXFLAGS)
+
+build/WidgetBackground.o: $(GLOBALDEPS) ../SourceCode/Widgets/WidgetBackGround/WidgetBackground.cpp ../SourceCode/Widgets/WidgetBackGround/WidgetBackground.hpp ../SourceCode/Widgets/WidgetBackGround/WidgetBackgroundSDL.hpp ../SourceCode/Widgets/WidgetBackGround/WidgetBackground.hpp
+	$(CPP) -c ../SourceCode/Widgets/WidgetBackGround/WidgetBackground.cpp -o build/WidgetBackground.o $(CXXFLAGS)
+
+build/WidgetBackgroundSDL.o: $(GLOBALDEPS) ../SourceCode/Widgets/WidgetBackGround/WidgetBackgroundSDL.cpp ../SourceCode/Widgets/WidgetBackGround/WidgetBackgroundSDL.hpp ../SourceCode/Widgets/WidgetBackGround/WidgetBackground.hpp
+	$(CPP) -c ../SourceCode/Widgets/WidgetBackGround/WidgetBackgroundSDL.cpp -o build/WidgetBackgroundSDL.o $(CXXFLAGS)
+
+build/WidgetBanner.o: $(GLOBALDEPS) ../SourceCode/Widgets/WidgetBanner/WidgetBanner.cpp ../SourceCode/Widgets/WidgetBanner/WidgetBanner.hpp ../SourceCode/Widgets/WidgetBanner/WidgetBannerSDL.hpp ../SourceCode/Widgets/WidgetBanner/WidgetBanner.hpp
+	$(CPP) -c ../SourceCode/Widgets/WidgetBanner/WidgetBanner.cpp -o build/WidgetBanner.o $(CXXFLAGS)
+
+build/WidgetBannerSDL.o: $(GLOBALDEPS) ../SourceCode/Widgets/WidgetBanner/WidgetBannerSDL.cpp ../SourceCode/Widgets/WidgetBanner/WidgetBannerSDL.hpp ../SourceCode/Widgets/WidgetBanner/WidgetBanner.hpp
+	$(CPP) -c ../SourceCode/Widgets/WidgetBanner/WidgetBannerSDL.cpp -o build/WidgetBannerSDL.o $(CXXFLAGS)
+
+build/WidgetFretBoard.o: $(GLOBALDEPS) ../SourceCode/Widgets/WidgetFretBoard/WidgetFretBoard.cpp ../SourceCode/Widgets/WidgetFretBoard/WidgetFretBoard.hpp ../SourceCode/Widgets/WidgetFretBoard/WidgetFretBoardSDL.hpp ../SourceCode/Widgets/WidgetFretBoard/WidgetFretBoard.hpp
+	$(CPP) -c ../SourceCode/Widgets/WidgetFretBoard/WidgetFretBoard.cpp -o build/WidgetFretBoard.o $(CXXFLAGS)
+
+build/WidgetFretBoardSDL.o: $(GLOBALDEPS) ../SourceCode/Widgets/WidgetFretBoard/WidgetFretBoardSDL.cpp ../SourceCode/Widgets/WidgetFretBoard/WidgetFretBoardSDL.hpp ../SourceCode/Widgets/WidgetFretBoard/WidgetFretBoard.hpp
+	$(CPP) -c ../SourceCode/Widgets/WidgetFretBoard/WidgetFretBoardSDL.cpp -o build/WidgetFretBoardSDL.o $(CXXFLAGS)
+
+build/WidgetKeyNotes.o: $(GLOBALDEPS) ../SourceCode/Widgets/WidgetKeyNotes/WidgetKeyNotes.cpp ../SourceCode/Widgets/WidgetKeyNotes/WidgetKeyNotes.hpp ../SourceCode/Widgets/WidgetKeyNotes/WidgetKeyNotesSDL.hpp ../SourceCode/Widgets/WidgetKeyNotes/WidgetKeyNotes.hpp
+	$(CPP) -c ../SourceCode/Widgets/WidgetKeyNotes/WidgetKeyNotes.cpp -o build/WidgetKeyNotes.o $(CXXFLAGS)
+
+build/WidgetKeyNotesSDL.o: $(GLOBALDEPS) ../SourceCode/Widgets/WidgetKeyNotes/WidgetKeyNotesSDL.cpp ../SourceCode/Widgets/WidgetKeyNotes/WidgetKeyNotesSDL.hpp ../SourceCode/Widgets/WidgetKeyNotes/WidgetKeyNotes.hpp
+	$(CPP) -c ../SourceCode/Widgets/WidgetKeyNotes/WidgetKeyNotesSDL.cpp -o build/WidgetKeyNotesSDL.o $(CXXFLAGS)
+
+build/WidgetLifeBarSDL.o: $(GLOBALDEPS) ../SourceCode/Widgets/WidgetLifeBar/WidgetLifeBarSDL.cpp ../SourceCode/Widgets/WidgetLifeBar/WidgetLifebarSDL.hpp ../SourceCode/Widgets/WidgetLifeBar/WidgetLifebar.hpp
+	$(CPP) -c ../SourceCode/Widgets/WidgetLifeBar/WidgetLifeBarSDL.cpp -o build/WidgetLifeBarSDL.o $(CXXFLAGS)
+
+build/WidgetMenu.o: $(GLOBALDEPS) ../SourceCode/Widgets/WidgetMenu/WidgetMenu.cpp ../SourceCode/Widgets/WidgetMenu/WidgetMenu.hpp ../SourceCode/Widgets/WidgetMenu/WidgetMenuSDL.hpp ../SourceCode/Widgets/WidgetMenu/WidgetMenu.hpp
+	$(CPP) -c ../SourceCode/Widgets/WidgetMenu/WidgetMenu.cpp -o build/WidgetMenu.o $(CXXFLAGS)
+
+build/WidgetMenuSDL.o: $(GLOBALDEPS) ../SourceCode/Widgets/WidgetMenu/WidgetMenuSDL.cpp ../SourceCode/Widgets/WidgetMenu/WidgetMenuSDL.hpp ../SourceCode/Widgets/WidgetMenu/WidgetMenu.hpp
+	$(CPP) -c ../SourceCode/Widgets/WidgetMenu/WidgetMenuSDL.cpp -o build/WidgetMenuSDL.o $(CXXFLAGS)
+
+build/MenuItemSDL.o: $(GLOBALDEPS) ../SourceCode/Widgets/WidgetMenu/MenuItemSDL/MenuItemSDL.cpp ../SourceCode/Widgets/WidgetMenu/MenuItemSDL/MenuItemSDL.hpp
+	$(CPP) -c ../SourceCode/Widgets/WidgetMenu/MenuItemSDL/MenuItemSDL.cpp -o build/MenuItemSDL.o $(CXXFLAGS)
+
+build/WidgetScript.o: $(GLOBALDEPS) ../SourceCode/Widgets/WidgetScript/WidgetScript.cpp ../SourceCode/Widgets/WidgetScript/WidgetScript.hpp ../SourceCode/Widgets/WidgetScript/WidgetScriptSDL.hpp ../SourceCode/Widgets/WidgetScript/WidgetScript.hpp
+	$(CPP) -c ../SourceCode/Widgets/WidgetScript/WidgetScript.cpp -o build/WidgetScript.o $(CXXFLAGS)
+
+build/WidgetScriptSDL.o: $(GLOBALDEPS) ../SourceCode/Widgets/WidgetScript/WidgetScriptSDL.cpp ../SourceCode/Widgets/WidgetScript/WidgetScriptSDL.hpp ../SourceCode/Widgets/WidgetScript/WidgetScript.hpp
+	$(CPP) -c ../SourceCode/Widgets/WidgetScript/WidgetScriptSDL.cpp -o build/WidgetScriptSDL.o $(CXXFLAGS)
+
+build/WidgetWindow.o: $(GLOBALDEPS) ../SourceCode/Widgets/WidgetWindow/WidgetWindow.cpp ../SourceCode/Widgets/WidgetWindow/WidgetWindow.hpp ../SourceCode/Widgets/WidgetWindow/WidgetWindowSDL.hpp ../SourceCode/Widgets/WidgetWindow/WidgetWindow.hpp
+	$(CPP) -c ../SourceCode/Widgets/WidgetWindow/WidgetWindow.cpp -o build/WidgetWindow.o $(CXXFLAGS)
+
+build/WidgetWindowSDL.o: $(GLOBALDEPS) ../SourceCode/Widgets/WidgetWindow/WidgetWindowSDL.cpp ../SourceCode/Widgets/WidgetWindow/WidgetWindowSDL.hpp ../SourceCode/Widgets/WidgetWindow/WidgetWindow.hpp
+	$(CPP) -c ../SourceCode/Widgets/WidgetWindow/WidgetWindowSDL.cpp -o build/WidgetWindowSDL.o $(CXXFLAGS)
+
+build/MainLoop.o: $(GLOBALDEPS) ../SourceCode/MainLoop/MainLoop.cpp ../SourceCode/MainLoop/MainLoop.hpp
+	$(CPP) -c ../SourceCode/MainLoop/MainLoop.cpp -o build/MainLoop.o $(CXXFLAGS)
+
+build/MainMenu.o: $(GLOBALDEPS) ../SourceCode/MainLoop/Components/MainMenu/MainMenu.cpp ../SourceCode/MainLoop/Components/MainMenu/MainMenu.hpp
+	$(CPP) -c ../SourceCode/MainLoop/Components/MainMenu/MainMenu.cpp -o build/MainMenu.o $(CXXFLAGS)
+
+build/PauseWindow.o: $(GLOBALDEPS) ../SourceCode/MainLoop/Components/PauseWindow/PauseWindow.cpp ../SourceCode/MainLoop/Components/PauseWindow/PauseWindow.hpp
+	$(CPP) -c ../SourceCode/MainLoop/Components/PauseWindow/PauseWindow.cpp -o build/PauseWindow.o $(CXXFLAGS)
+
+build/PlaySong.o: $(GLOBALDEPS) ../SourceCode/MainLoop/Components/PlaySong/PlaySong.cpp ../SourceCode/MainLoop/Components/PlaySong/PlaySong.hpp
+	$(CPP) -c ../SourceCode/MainLoop/Components/PlaySong/PlaySong.cpp -o build/PlaySong.o $(CXXFLAGS)
+
+build/SongFinished.o: $(GLOBALDEPS) ../SourceCode/MainLoop/Components/SongFinished/SongFinished.cpp ../SourceCode/MainLoop/Components/SongFinished/SongFinished.hpp
+	$(CPP) -c ../SourceCode/MainLoop/Components/SongFinished/SongFinished.cpp -o build/SongFinished.o $(CXXFLAGS)
+
+build/TryKeys.o: $(GLOBALDEPS) ../SourceCode/MainLoop/Components/TryKeys/TryKeys.cpp ../SourceCode/MainLoop/Components/TryKeys/TryKeys.hpp
+	$(CPP) -c ../SourceCode/MainLoop/Components/TryKeys/TryKeys.cpp -o build/TryKeys.o $(CXXFLAGS)
+
+build/WigdetLifebar.o: $(GLOBALDEPS) ../SourceCode/Widgets/WidgetLifebar/WigdetLifebar.cpp ../SourceCode/Widgets/WidgetLifebar/WidgetLifebar.hpp ../SourceCode/Widgets/WidgetLifebar/WidgetLifebarSDL.hpp ../SourceCode/Widgets/WidgetLifebar/WidgetLifebar.hpp
+	$(CPP) -c ../SourceCode/Widgets/WidgetLifebar/WigdetLifebar.cpp -o build/WigdetLifebar.o $(CXXFLAGS)
+
+build/Guitar_Xero_private.res: build/Guitar_Xero_private.rc 
+	$(WINDRES) --input-format=rc -o build/Guitar_Xero_private.res $(RCINCS) build/006EC414.RC -O coff

@@ -1,0 +1,82 @@
+Bugs
+====
+?[2007-11-13] solve random failures (memory?)
+[2007-11-13] There was no problem!] solve problem with quotes on song path
+?[2007-11-15] repair songPath bug
+[2008-06-15]bizarre data in GuitarXero.ini when modifing commented values
+
+*Solve places where memory is losed
+*check doubles free mems
+repair play after adding level selector
+*repair synchronization (timer)
+repair tempo loop bug
+parser and preview has problems with long paths
+rendering of fonts problem on OpenGL
+application closes randomizly when loading a configuration submenu (OpenGL only?)
+drawing of fretboard on OpenGL
+animated background on OpenGL
+Fullscreen (booleans?) option doesn't write in GuitarXero.ini in first load
+Adjust format of volume (float) data in GuitarXero.ini
+
+
+Development
+===========
+[2007-11-15] read data from song.ini
+[2007-11-15] check tutorial
+[2007-11-15] play song snippet in selector
+[2008-06-15] Optimize parser
+[2008-06-16] find a way to make selected menu item more visible (maybe use a shaded or traslucent object in non selected)
+[2008-06-24] Solved using a language by-pass in GetText function when is English or not defined] Auto-fill language config if not found
+[2008-06-24] Use red and green colors in boolean options
+[2008-06-25] Blank lines in menues
+[2008-06-25] Get images in any available format (not depend of file extension)
+
+*read data from fretsonfire.ini (GuitarXero.ini)
+identify what is the exactly point where "loading" screen should be added (if needed...)
+implement support for second guitar (rythm)
+reduce memory footprint (ensure all data is unloaded when unnecesary)
+	[2007-11-21] music
+	images
+	menues
+*implement tutorial (graphics and script)
+	draw scripts graphics
+add svg and frets on fire images support
+identify common blocks in SDL and OGL_SDL_2D
+read input and check against song!!!!
+*Make GuitarXero.ini fail-prove
+Make Guitar Xero fail-prove in general
+Roll the text menues
+Autorepeat keys in slider
+Solve problem with default data not fundamental in GuitarXero.ini (Get and set, get default...), particularly with themes
+Change drawing menues for using indexed element as reference
+
+
+Features
+========
+[2007-11-12] add support to labels when are CDs instead cassettes labels
+[2007-11-16] game cover on the background while selecting song (animated background)
+[2007-11-20] CD name when there's no cover
+[2008-06-26] Tutorial now has it's own folder separate from songs folder
+
+Implement diferent input modes depending what system are you emulating (Frets on Fire, Guitar Hero...)
+add video-background support
+cassette and/or game cover on background when playing (animated background)
+slide-in and slide-out during song selector (others menues too?)
+implement a pure 3D OpenGl interface, not 2D interface only
+Allow diferent theming options
+Import songs
+Library mode
+Comprimed songs
+
+
+Done
+====
+[2007-11-09] remove memory leaks with menus
+[2007-11-09] draw menus with individual calls
+[2007-11-10] use stat
+[2007-11-10] select level answering the first note of every track
+[2007-11-10] modify system to have only ONE graphic class
+[2007-11-20] support for internationalization (Hurra!!! :-D )
+[2007-11-21] non-fundamental methods and statics methods placed as global functions inside common.hpp (availables for all the programs that demand them)
+[2008-06-05] Change of graphic library on the fly (at last!!! :-D )
+[2008-06-24] Default song dir when not specified in GuitarXero.ini
